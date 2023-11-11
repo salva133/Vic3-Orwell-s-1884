@@ -149,3 +149,12 @@
  ig_red_army_desc:0 "The Red Army is an institution dedicated to the defence and propagation of the Revolution, born through the amalgamation of the traditional armed forces with the proletariat and Communist ideology."
  ig_fellahin: "Fellahin"
  ig_fellahin_desc: "Gaining their name from the plows they work and the fields they till, the fellahin are the farmers and peasants of Egypt."
+
+  # Orwellian IGs
+
+  ig_inner_party:0 "Inner Party"
+  ig_inner_party_desc:0 "WIP"
+  ig_outer_party:0 "Outer Party"
+  ig_outer_party_desc:0 "WIP"
+  ig_proles:0 "Proles"
+  ig_proles_desc:0 "WIP"
