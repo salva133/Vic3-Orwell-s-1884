@@ -1,0 +1,48 @@
+# Orwell 
+OCE = {
+	flag_definition = {
+		coa = OCE
+		subject_canton = OCE
+		priority = 1000
+		allow_overlord_canton = no
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+ASO = {
+	flag_definition = {
+		coa = ASO
+		subject_canton = ASO
+		priority = 1000
+		allow_overlord_canton = no
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+EUR = {
+	flag_definition = {
+		coa = EUR
+		subject_canton = EUR
+		priority = 1000
+		allow_overlord_canton = no
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+EAS = {
+	flag_definition = {
+		coa = EAS
+		subject_canton = EAS
+		priority = 1000
+		allow_overlord_canton = no
+		trigger = {
+			always = yes
+		}
+	}
+}

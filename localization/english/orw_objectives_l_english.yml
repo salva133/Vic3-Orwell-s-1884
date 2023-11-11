@@ -1,0 +1,12 @@
+﻿l_english:
+ objective_1884: "The World of 1884"
+ objective_1884_desc: "The year 1884 dawns and the world has fallen to socialism. The world is dominated by three superpowers who want to bring socialism to the world. But they have also developed their own branches and interpretations of the socialist world revolution and are competing to see who will be right in the end.\n\nThe last war will come, and it will be eternal."
+ objective_1884_idle_header: "Continue on your path"
+ objective_1884_idle_hint: "More challenges will appear eventually"
+
+ objective_1884_name_OCE: "#v $OCE$#!"
+ objective_1884_desc_OCE: "#lore $OCE_FLAVOR_TEXT$#!"
+ objective_1884_name_EUR: "#v $EUR$#!"
+ objective_1884_desc_EUR: "#lore $EUR_FLAVOR_TEXT$#!"
+ objective_1884_name_EAS: "#v $EAS$#!"
+ objective_1884_desc_EAS: "#lore $EAS_FLAVOR_TEXT$#!"

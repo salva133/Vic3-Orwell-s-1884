@@ -1,0 +1,104 @@
+﻿DIPLOMACY = {
+	c:OCE = {
+		create_diplomatic_pact = {
+			country = c:ASO
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:CUB
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:UCA
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:HAI
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:MKT
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:CLM
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:VNZ
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:ECU
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:BOL
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:BRZ
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:PRG
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:URU
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:CHL
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:ARG
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:NPU
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:SPU
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:IQU
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:SAF
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:MAD
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:WAS
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:NSW
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:SAS
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:KAU
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:TAS
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:UNT
+			type = unified_leadership
+		}
+	}
+}

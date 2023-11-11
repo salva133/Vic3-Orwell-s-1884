@@ -1,0 +1,54 @@
+﻿OCE = {
+    color = { 0 7 34 }
+
+    country_type = recognized
+
+    tier = hegemony  
+
+    cultures = { yankee dixie }  
+    capital = STATE_DISTRICT_OF_COLUMBIA 
+}
+
+ASO = {
+    color = { 77 77 77 }  
+
+    country_type = unrecognized  
+
+    tier = principality  
+
+    cultures = { british scottish welsh irish }  
+    capital = STATE_HOME_COUNTIES  
+}
+
+EUR = {
+    color = { 110 0 0 }
+
+    country_type = recognized
+
+    tier = hegemony  
+
+    cultures = { russian north_german south_german french }  
+    capital = STATE_MOSCOW 
+}
+
+EAS = {
+    color = { 25 0 51 }
+
+    country_type = recognized
+
+    tier = hegemony  
+
+    cultures = { han manchu }  
+    capital = STATE_BEIJING 
+}
+
+GER = {
+	color = { 147 130 110 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { north_german south_german }
+	capital = STATE_ELBE
+}

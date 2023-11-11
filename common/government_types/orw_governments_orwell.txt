@@ -1,0 +1,72 @@
+﻿gov_ingsoc = {
+	transfer_of_power = dictatorial
+
+	male_ruler = "RULER_TITLE_BIG_BROTHER"
+	female_ruler = "RULER_TITLE_BIG_BROTHER"
+
+	possible = {
+		has_law = law_type:law_council_republic
+		exists = c:OCE
+		c:OCE = ROOT
+	}
+	
+	on_government_type_change = {
+		change_to_dictatorial = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_dictatorial = yes
+	}
+}
+
+gov_ingsoc_aso = {
+	transfer_of_power = dictatorial
+
+	male_ruler = "RULER_TITLE_BIG_BROTHER"
+	female_ruler = "RULER_TITLE_BIG_BROTHER"
+
+	possible = {
+		exists = c:ASO
+		c:ASO = ROOT
+		has_law = law_type:law_council_republic
+	}
+	on_government_type_change = {
+		change_to_dictatorial = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_dictatorial = yes
+	}
+}
+
+gov_neobolshevism = {
+	transfer_of_power = dictatorial
+	male_ruler = "RULER_TITLE_GENERAL_SECRETARY"
+	female_ruler = "RULER_TITLE_GENERAL_SECRETARY"
+	possible = {
+		exists = c:EUR
+		c:EUR = ROOT
+		has_law = law_type:law_council_republic
+	}
+	on_government_type_change = {
+		change_to_dictatorial = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_dictatorial = yes
+	}
+}
+
+gov_obliterationoftheself = {
+	transfer_of_power = dictatorial
+	male_ruler = "RULER_TITLE_GREAT_LEADER"
+	female_ruler = "RULER_TITLE_GREAT_LEADER"
+	possible = {
+		exists = c:EAS
+		c:EAS = ROOT
+		has_law = law_type:law_council_republic
+	}
+	on_government_type_change = {
+		change_to_dictatorial = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_dictatorial = yes
+	}
+}

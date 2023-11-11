@@ -1,0 +1,32 @@
+OCE = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	textured_emblem = {
+		texture = "OCE.dds"
+	}
+}
+ASO = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	textured_emblem = {
+		texture = "ASO.dds"
+	}
+}
+EUR = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "EUR.dds"
+	}
+}
+EAS = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "EAS.dds"
+	}
+}

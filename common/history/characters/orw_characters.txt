@@ -1,0 +1,17 @@
+﻿CHARACTERS = {
+	c:OCE ?= {
+		create_character = {
+			template = oce_leader_template
+		}
+	}
+	c:EUR ?= {
+		create_character = {
+			template = eur_leader_template
+		}
+	}
+	c:EAS ?= {
+		create_character = {
+			template = eas_leader_template
+		}
+	}
+}

@@ -1,0 +1,16 @@
+﻿l_english:
+
+# Orwell Govs
+ gov_ingsoc: "IngSoc"
+ gov_ingsoc_desc: "The IngSoc government epitomises the ultimate totalitarian system, based on strict control, rigorous surveillance and unquestionable authority. Under the leadership of Big Brother, society is fully aligned with the principles of English Socialism, where individual freedoms are subordinated to the collective and thought crimes are relentlessly prosecuted.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_ingsoc_aso: "IngSoc"
+ gov_ingsoc_aso_desc: "The IngSoc government epitomises the ultimate totalitarian system, based on strict control, rigorous surveillance and unquestionable authority. Applied specifically to Airstrip One, this form of government manifests itself in even more intense surveillance and control of daily life to ensure the ideological purity and absolute power of the IngSoc.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_neobolshevism: "Neo-Bolshevism"
+ gov_neobolshevism_desc: "The Neo-Bolshevik government is characterised by strong centralised control and a collectivist social structure. Inspired by the principles of Bolshevism, this government strives for a homogenous socialist society in which the state controls all aspects of life and prioritises the unity of the masses over individual needs.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_obliterationoftheself: "Obliteration of the Self"
+ gov_obliterationoftheself_desc: "The 'Obliteration of Self' government is based on the principle of absolute self-sacrifice in favour of the collective. This form of government promotes an extreme form of collectivism in which individual identity and self-expression are completely abandoned in favour of the collective goals and well-being of the state.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+
+# Orwell Titles
+ RULER_TITLE_BIG_BROTHER: "Big Brother"
+ RULER_TITLE_GENERAL_SECRETARY: "General-Secretary"
+ RULER_TITLE_GREAT_LEADER: "Great Leader"
