@@ -17,4 +17,7 @@
  buddhist:0 "Buddhist"
  christian:0 "Christian"
  muslim:0 "Muslim"
- great_revolution:0 "Great Revolution"
+ great_revolution:1 "Great Revolution"
+ ing_soc:1 "IngSoc"
+ neo_bolshevism:1 "Neo-Bolshevism"
+ obliteration_of_self:2 "Obliteration of the Self"
