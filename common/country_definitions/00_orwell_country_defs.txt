@@ -9,7 +9,7 @@ OCE = {
     capital = STATE_DISTRICT_OF_COLUMBIA 
 }
 
-AIR = {
+ASO = {
     color = { 77 77 77 }  
 
     country_type = unrecognized  

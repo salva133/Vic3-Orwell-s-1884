@@ -1,5 +1,5 @@
 COUNTRIES = {
-	c:GBR = {
+	c:ASO = {
 		
 		ig:ig_inner_party = {
 			add_ruling_interest_group = yes

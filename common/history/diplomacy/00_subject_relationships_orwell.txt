@@ -1,0 +1,8 @@
+﻿DIPLOMACY = {
+	c:OCE = {
+		create_diplomatic_pact = {
+			country = c:ASO
+			type = puppet
+		}
+	}
+}

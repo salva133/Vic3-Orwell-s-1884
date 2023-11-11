@@ -1100,8 +1100,8 @@
 
   OCE: "United States of Oceania"
   OCE_ADJ: "Oceanian"
-  AIR: "Airstrip One"
-  AIR_ADJ: "Englisch"
+  ASO: "Airstrip One"
+  ASO_ADJ: "Englisch"
 
 
   # Dynamic countries
