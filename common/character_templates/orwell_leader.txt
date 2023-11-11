@@ -1,0 +1,13 @@
+big_brother_character = {
+    first_name = "Big"
+    last_name = "Brother"
+    historical = no
+    culture = primary_culture 
+    female = no
+    interest_group = ig_inner_party
+    religion = ing_soc
+    traits = {
+        autocratic
+        charismatic
+    }
+}

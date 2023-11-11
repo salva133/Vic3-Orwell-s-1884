@@ -1095,6 +1095,15 @@
  RHN_ADJ: "Rhenish"
  PLT: "Rio de la Plata"
  PLT_ADJ: "Platinean"
+
+  # Orwell's
+
+  OCE: "United States of Oceania"
+  OCE_ADJ: "Oceanian"
+  AIR: "Airstrip One"
+  AIR_ADJ: "Englisch"
+
+
   # Dynamic countries
  dyn_c_united_sovereign_archduchy:0 "United Sovereign Archduchy"
  dyn_c_united_sovereign_archduchy_adj:0 "Archducal American"
