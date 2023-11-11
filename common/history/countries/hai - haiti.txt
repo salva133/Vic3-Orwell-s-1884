@@ -1,0 +1,35 @@
+﻿COUNTRIES = {
+	c:HAI = {
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		# Laws 
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_council_republic
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_charitable_health_system
+		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_command_economy
+		activate_law = law_type:law_no_colonial_affairs
+		activate_law = law_type:law_outlawed_dissent
+		activate_law = law_type:law_no_workers_rights
+		activate_law = law_type:law_proportional_taxation
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_militarized_police
+		activate_law = law_type:law_women_in_the_workplace
+
+		set_tax_level = high
+
+		add_modifier = {
+			name = modifier_french_independence_payments_4
+		}
+
+		ig:ig_armed_forces = {
+			add_ruling_interest_group = yes
+		}
+
+		add_journal_entry = { type = je_haitian_debt }
+	}
+}

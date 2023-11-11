@@ -21,3 +21,7 @@ animist = {
 buddhist = {
 	heritage = yes
 }
+
+great_revolution = {
+	heritage = yes
+}
