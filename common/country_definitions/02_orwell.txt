@@ -1,0 +1,10 @@
+OCE = {
+    color = { 0 51 76 }  # Dunkelblau, passend zur dystopischen Atmosphäre von 1984
+
+    country_type = recognized  # Da es sich um ein mächtiges und etabliertes Reich handelt
+
+    tier = empire  # Entsprechend seiner mächtigen Stellung in der Welt von 1984
+
+    cultures = { english }  # Ozeanien basiert auf einer englischen Kultur in 1984
+    capital = STATE_LONDON  # Angenommen, dass London die Hauptstadt ist, entsprechend der in 1984 dargestellten Lage
+}
