@@ -201,6 +201,11 @@
  GLI_FLAVOR_TEXT:2 "Galicia is a small and unremarkable country populated by cathedral enthusiasts. Will Galicia regain its past glory?"
 
 
+ # Orwell
+ OCE_FLAVOR_TEXT:0 "Oceania, a vast superstate stretching across the Americas, is a land of strict control and unyielding authority. Governed by the principles of IngSoc, Oceania's society is a testament to the power of the state over the individual, where surveillance and propaganda are tools of governance."
+ ASO_FLAVOR_TEXT:0 "Airstrip One, formerly known as Great Britain, stands as the core of Oceania's power in the European theater. It is a land where the past is rewritten, and the present is under the ever-watchful eye of Big Brother."
+
+
   #Decentralized
  TUA_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
  AHG_FLAVOR_TEXT:0 "$DECENTRALIZED_FLAVOR_TEXT$"
