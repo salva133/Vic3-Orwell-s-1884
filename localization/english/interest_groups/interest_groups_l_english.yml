@@ -75,6 +75,8 @@
  ig_southern_planters_desc:0 "Many of the Founding Fathers saw the independent yeomen farmers of the North as the basic building block of the citizenry, but the vast wealth of the Southern tobacco and cotton plantations cannot be denied. That wealth gives the Southern Planters a just claim to participate in the administration of the republic."
  ig_evangelicals:0 "Evangelicals"
  ig_evangelicals_desc:0 "Ardent Christians from a surprisingly wide variety of Protestant denominations, the Evangelicals all agree that the nation needs to find its own spiritual awakening in order to save itself."
+ ig_yeoman_farmers:0 "Yeoman Farmers"
+ ig_yeoman_farmers_desc:1 "The smallholding American rural class, regarded by many of the Founding Fathers as the bedrock of the nation. The yeoman class has long established itself as the vanguard of both American rural populism and Westwards expansion."
 
   # Ottoman IGs
  ig_local_governors:0 "Local Governors"
@@ -146,7 +148,7 @@
 
   # Misc Igs
  ig_red_army:0 "Red Army"
- ig_red_army_desc:0 "The Red Army is an institution dedicated to the defence and propagation of the Revolution, born through the amalgamation of the traditional armed forces with the proletariat and Communist ideology."
+ ig_red_army_desc:0 "The Red Army is an institution dedicated to the defense and propagation of the Revolution, born through the amalgamation of the traditional armed forces with the proletariat and Communist ideology."
  ig_fellahin: "Fellahin"
  ig_fellahin_desc: "Gaining their name from the plows they work and the fields they till, the fellahin are the farmers and peasants of Egypt."
 

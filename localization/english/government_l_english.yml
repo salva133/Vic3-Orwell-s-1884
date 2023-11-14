@@ -272,12 +272,12 @@
 
  # Orwell
 
- gov_oceania_ingsoc: "IngSoc"
- gov_oceania_ingsoc_desc: "The IngSoc government in Oceania epitomises the ultimate totalitarian system, based on strict control, rigorous surveillance and unquestionable authority. Under the leadership of Big Brother, society is fully aligned with the principles of English Socialism, where individual freedoms are subordinated to the collective and thought crimes are relentlessly prosecuted"
- gov_eurasia_neo_bolshevism: "Neo-Bolshevism"
- gov_eurasia_neo_bolshevism_desc: "The Neo-Bolshevik government of Eurasia is characterised by strong centralised control and a collectivist social structure. Inspired by the principles of Bolshevism, this government strives for a homogenous socialist society in which the state controls all aspects of life and prioritises the unity of the masses over individual needs"
- gov_eastasia_obliteration_of_self: "Obliteration of the Self"
- gov_eastasia_obliteration_of_self_desc: "The 'Obliteration of Self' government in East Asia is based on the principle of absolute self-sacrifice in favour of the collective. This form of government promotes an extreme form of collectivism in which individual identity and self-expression are completely abandoned in favour of the collective goals and well-being of the state"
+ gov_ingsoc: "IngSoc"
+ gov_ingsoc_desc: "The IngSoc government in Oceania epitomises the ultimate totalitarian system, based on strict control, rigorous surveillance and unquestionable authority. Under the leadership of Big Brother, society is fully aligned with the principles of English Socialism, where individual freedoms are subordinated to the collective and thought crimes are relentlessly prosecuted"
+ gov_neo_bolshevism: "Neo-Bolshevism"
+ gov_neo_bolshevism_desc: "The Neo-Bolshevik government of Eurasia is characterised by strong centralised control and a collectivist social structure. Inspired by the principles of Bolshevism, this government strives for a homogenous socialist society in which the state controls all aspects of life and prioritises the unity of the masses over individual needs"
+ gov_obliteration_of_self: "Obliteration of the Self"
+ gov_obliteration_of_self_desc: "The 'Obliteration of Self' government in East Asia is based on the principle of absolute self-sacrifice in favour of the collective. This form of government promotes an extreme form of collectivism in which individual identity and self-expression are completely abandoned in favour of the collective goals and well-being of the state"
 
 # Transfer of Power
  transfer_of_power_hereditary:0 "Hereditary"
