@@ -1,0 +1,72 @@
+﻿DIPLOMACY = {
+	c:OCE = {
+		create_diplomatic_pact = {
+			country = c:ASO
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:CUB
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:UCA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:HAI
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MKT
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:CLM
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:VNZ
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ECU
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:PEU
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BOL
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:PRA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BRZ
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:PRG
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:PNI
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:URU
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:CHL
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ARG
+			type = puppet
+		}
+	}
+}

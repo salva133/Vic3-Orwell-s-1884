@@ -1,0 +1,25 @@
+﻿# If you add religions, and use those tags, do not change them without changing everywhere they are used.
+
+ingsoc = {
+	texture = "gfx/interface/icons/religion_icons/atheist.dds"
+	traits = {
+		great_revolution
+	}
+	color = { 0.5 0.0 0.0 }  
+}
+
+neobolshevism = {
+	texture = "gfx/interface/icons/religion_icons/atheist.dds"
+	traits = {
+		great_revolution
+	}
+	color = { 0.7 0.2 0.2 }  
+}
+
+obliterationoftheself = {
+	texture = "gfx/interface/icons/religion_icons/atheist.dds"
+	traits = {
+		great_revolution
+	}
+	color = { 0.1 0.1 0.1 }  
+}
