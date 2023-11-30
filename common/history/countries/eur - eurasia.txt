@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:OCE = {
+	c:EUR = {
 
 		ig:ig_inner_party = { add_ruling_interest_group = yes }
 
@@ -7,9 +7,9 @@
 		
 		effect_starting_technology_tier_5_tech = yes
 		
-		set_market_capital = STATE_NEW_YORK	
+		set_market_capital = STATE_MOSCOW	
 		
-		activate_law = law_type:law_single_party_state
+		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_council_republic
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_charitable_health_system
@@ -27,7 +27,7 @@
 		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_secret_police
 		activate_law = law_type:law_collectivized_agriculture
-		
+
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 5
