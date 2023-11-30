@@ -1,0 +1,9 @@
+﻿l_english:
+
+# Orwellian IGs
+  ig_inner_party:0 "Inner Party"
+  ig_inner_party_desc:0 "The Inner Party represents the elite ruling class, exercising absolute control over the state. Comprising a small fraction of the population, this group wields extensive power, orchestrating the government's policies, censorship, and propaganda. Members of the Inner Party enjoy privileges and authority far beyond the reach of ordinary citizens, living in relative luxury while strictly upholding and enforcing the principles of the Great Revolution"
+  ig_outer_party:0 "Outer Party"
+  ig_outer_party_desc:0 "The Outer Party constitutes the middle tier of the states societal hierarchy. Functioning as bureaucrats and functionaries, members of the Outer Party implement the state’s policies and maintain the mechanics of the government. Despite their crucial role in the administration, they live under constant surveillance and strict control, with limited rights and freedoms. The Outer Party represents the obedient and diligent workforce, constantly indoctrinated to remain loyal to the leader"
+  ig_proles:0 "Proles"
+  ig_proles_desc:0 "The Proles, or the proletarians, form the majority of the states population. Largely ignored by the Party, they are considered less intelligent and politically insignificant. The Proles live in poor conditions and are kept pacified with alcohol, gambling, and trivial entertainment. They are free from the stringent controls imposed on Party members but lack the means or awareness to challenge the status quo. The Party views them as a labor force, essential yet inconsequential to its power structure"
