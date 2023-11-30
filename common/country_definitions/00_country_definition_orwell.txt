@@ -1,4 +1,4 @@
-OCE = {
+﻿OCE = {
     color = { 0 51 76 }
 
     country_type = recognized
