@@ -1,11 +1,11 @@
 ﻿OCE = {
-    color = { 0 51 76 }
+    color = { 0 23 98 }
 
     country_type = recognized
 
     tier = hegemony  
 
-    cultures = { yankee dixie}  
+    cultures = { yankee dixie }  
     capital = STATE_DISTRICT_OF_COLUMBIA 
 }
 
@@ -18,4 +18,26 @@ ASO = {
 
     cultures = { british }  
     capital = STATE_HOME_COUNTIES  
+}
+
+EUR = {
+    color = { 110 0 0 }
+
+    country_type = recognized
+
+    tier = hegemony  
+
+    cultures = { russian north_german south_german french }  
+    capital = STATE_MOSCOW 
+}
+
+EAS = {
+    color = { 25 0 51 }
+
+    country_type = recognized
+
+    tier = hegemony  
+
+    cultures = { han }  
+    capital = STATE_BEIJING 
 }
