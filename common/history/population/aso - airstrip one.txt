@@ -1,6 +1,6 @@
-POPULATION = {
+﻿POPULATION = {
 	c:ASO = {
-		effect_starting_pop_wealth_high = no
-		effect_starting_pop_literacy_high = no
+		effect_starting_pop_wealth_low = yes
+		effect_starting_pop_literacy_low = yes
 	}
 }
