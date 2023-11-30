@@ -1,8 +1,8 @@
-# OCE - Oceania
+﻿# OCE - Oceania
 oce_big_brother_character = {
 	# Big Brother
-	first_name = "Big"
-	last_name = "Brother"
+	first_name = ""
+	last_name = ""
 	historical = yes
 	ruler = yes
 	birth_date = 1949.6.8
@@ -10,7 +10,7 @@ oce_big_brother_character = {
 	female = no
 	interest_group = ig_inner_party
 	ideology = ideology_vanguardist
-	religion = ing_soc
+	religion = ingsoc
 	traits = {
 		charismatic
 		demagogue
