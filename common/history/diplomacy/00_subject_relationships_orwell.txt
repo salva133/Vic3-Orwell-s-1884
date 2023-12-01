@@ -80,5 +80,37 @@
 			country = c:IQU
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:SAF
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MAD
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:WAS
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NSW
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SAS
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:KAU
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:TAS
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:UNT
+			type = puppet
+		}
 	}
 }
