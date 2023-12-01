@@ -68,5 +68,17 @@
 			country = c:ARG
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:NPU
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SPU
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:IQU
+			type = puppet
+		}
 	}
 }
