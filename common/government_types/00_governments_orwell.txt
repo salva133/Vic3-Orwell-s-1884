@@ -47,8 +47,8 @@ gov_neobolshevism = {
 gov_obliterationoftheself = {
     transfer_of_power = dictatorial
 
-    male_ruler = "RULER_TITLE_PARTY_LEADER"
-    female_ruler = "RULER_TITLE_PARTY_LEADER"
+    male_ruler = "RULER_TITLE_GREAT_LEADER"
+    female_ruler = "RULER_TITLE_GREAT_LEADER"
     
     possible = {
         has_law = law_type:law_council_republic
