@@ -33,15 +33,7 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
-			country = c:PEU
-			type = puppet
-		}
-		create_diplomatic_pact = {
 			country = c:BOL
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:PRA
 			type = puppet
 		}
 		create_diplomatic_pact = {
@@ -50,10 +42,6 @@
 		}
 		create_diplomatic_pact = {
 			country = c:PRG
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:PNI
 			type = puppet
 		}
 		create_diplomatic_pact = {
