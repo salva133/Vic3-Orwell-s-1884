@@ -1,0 +1,40 @@
+OCE = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	textured_emblem = {
+		texture = "orw_ingsoc_oce.dds"
+		instance = { scale = { 1.0 1.0 } position = { 0.5 0.5 }}
+	}
+}
+ASO = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+
+	textured_emblem = {
+		texture = "orw_ingsoc_aso.dds"
+		color1 = "black"
+		color2 = "red"
+		color3 = "white"
+	}
+}
+EUR = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "orw_ingsoc.dds"
+		color1 = "red"
+	}
+}
+EAS = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "orw_ingsoc.dds"
+		color1 = "red"
+		color1 = "black"
+		color3 = "white"
+	}
+}

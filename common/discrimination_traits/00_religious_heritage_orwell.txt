@@ -1,3 +1,0 @@
-﻿great_revolution = {
-	heritage = yes
-}
