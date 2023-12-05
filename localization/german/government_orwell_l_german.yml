@@ -2,13 +2,13 @@
 
 # Orwell Govs
  gov_ingsoc: "IngSoc"
- gov_ingsoc_desc: "The IngSoc government epitomises the ultimate totalitarian system, based on strict control, rigorous surveillance and unquestionable authority. Under the leadership of Big Brother, society is fully aligned with the principles of English Socialism, where individual freedoms are subordinated to the collective and thought crimes are relentlessly prosecuted"
- gov_neobolshevism: "Neo-Bolshevism"
- gov_neobolshevism_desc: "The Neo-Bolshevik government is characterised by strong centralised control and a collectivist social structure. Inspired by the principles of Bolshevism, this government strives for a homogenous socialist society in which the state controls all aspects of life and prioritises the unity of the masses over individual needs"
- gov_obliterationoftheself: "Obliteration of the Self"
- gov_obliterationoftheself_desc: "The 'Obliteration of Self' government is based on the principle of absolute self-sacrifice in favour of the collective. This form of government promotes an extreme form of collectivism in which individual identity and self-expression are completely abandoned in favour of the collective goals and well-being of the state"
+ gov_ingsoc_desc: "Die IngSoc-Regierung verkörpert das ultimative totalitäre System, das auf strenger Kontrolle, rigoroser Überwachung und unanfechtbarer Autorität beruht. Unter der Führung von Big Brother ist die Gesellschaft vollständig auf die Prinzipien des englischen Sozialismus ausgerichtet, in dem individuelle Freiheiten dem Kollektiv untergeordnet und Gedankenverbrechen unerbittlich verfolgt werden"
+ gov_neobolshevism: "Neo-Bolschewismus"
+ gov_neobolshevism_desc: "Die neobolschewistische Regierung zeichnet sich durch eine starke zentralisierte Kontrolle und eine kollektivistische Gesellschaftsstruktur aus. Inspiriert von den Grundsätzen des Bolschewismus strebt diese Regierung eine homogene sozialistische Gesellschaft an, in der der Staat alle Aspekte des Lebens kontrolliert und der Einheit der Massen Vorrang vor individuellen Bedürfnissen einräumt"
+ gov_obliterationoftheself: "Auslöschung des Selbst"
+ gov_obliterationoftheself_desc: "Die Regierung der "Auslöschung des Selbst" basiert auf dem Prinzip der absoluten Selbstaufopferung zugunsten des Kollektivs. Diese Regierungsform fördert eine extreme Form des Kollektivismus, bei der die individuelle Identität und Selbstdarstellung zugunsten der kollektiven Ziele und des Wohlergehens des Staates vollständig aufgegeben werden"
 
 # Orwell Titles
- RULER_TITLE_BIG_BROTHER: "Big Brother"
- RULER_GENERAL_SECRETARY: "General-Secretary"
- RULER_TITLE_GREAT_LEADER: "Great Leader"
+ RULER_TITLE_BIG_BROTHER: "Großer Bruder"
+ RULER_GENERAL_SECRETARY: "Generalsekretär"
+ RULER_TITLE_GREAT_LEADER: "Großer Anführer"
