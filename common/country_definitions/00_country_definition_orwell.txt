@@ -16,7 +16,7 @@ ASO = {
 
     tier = principality  
 
-    cultures = { british }  
+    cultures = { british scottish welsh irish }  
     capital = STATE_HOME_COUNTIES  
 }
 
