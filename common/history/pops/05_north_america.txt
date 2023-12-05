@@ -1670,7 +1670,7 @@
 				size = 72164
 			}
 		}
-		region_state:OCE = {
+		region_state:UCA = {
 			create_pop = {
 				culture = mexican
 				size = 5562
