@@ -27,6 +27,7 @@
 		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_secret_police
 		activate_law = law_type:law_collectivized_agriculture
+		activate_law = law_type:law_frontier_colonization
 
 		ig:ig_inner_party = {
 			add_ruling_interest_group = yes
