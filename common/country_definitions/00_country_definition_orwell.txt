@@ -38,6 +38,6 @@ EAS = {
 
     tier = hegemony  
 
-    cultures = { han }  
+    cultures = { han manchu }  
     capital = STATE_BEIJING 
 }
