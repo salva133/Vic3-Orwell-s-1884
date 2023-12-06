@@ -1,0 +1,69 @@
+﻿DIPLOMACY = {
+	c:EUR = {
+		create_diplomatic_pact = {
+			country = c:GER
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:SWE
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:NOR
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:DEN
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:AUS
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:WAL
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:SER
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:TUR
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:GRE
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:SIC
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:PAP
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:TUS
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:LUC
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:MOD
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:PAR
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:SAR
+			type = unified_leadership
+		}
+		
+	}
+}

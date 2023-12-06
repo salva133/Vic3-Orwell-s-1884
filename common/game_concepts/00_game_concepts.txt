@@ -1,0 +1,3 @@
+﻿concept_unified_leadership = {
+	texture = "gfx/interface/icons/lens_toolbar_icons/puppet.dds"
+}

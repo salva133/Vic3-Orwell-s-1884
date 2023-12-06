@@ -1411,7 +1411,7 @@
 				size = 1400
 			}
 		}
-		region_state:RUS = {
+		region_state:EUR = {
 			create_pop = {
 				culture = azerbaijani
 				size = 17000

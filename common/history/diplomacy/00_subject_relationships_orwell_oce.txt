@@ -2,103 +2,103 @@
 	c:OCE = {
 		create_diplomatic_pact = {
 			country = c:ASO
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:CUB
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:UCA
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:HAI
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:MKT
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:CLM
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:VNZ
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:ECU
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:BOL
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:BRZ
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:PRG
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:URU
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:CHL
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:ARG
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:NPU
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:SPU
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:IQU
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:SAF
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:MAD
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:WAS
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:NSW
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:SAS
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:KAU
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:TAS
-			type = puppet
+			type = unified_leadership
 		}
 		create_diplomatic_pact = {
 			country = c:UNT
-			type = puppet
+			type = unified_leadership
 		}
 	}
 }

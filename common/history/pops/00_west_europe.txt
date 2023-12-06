@@ -128,7 +128,7 @@
 		}
 	}
 	s:STATE_ICELAND = {
-		region_state:DEN = {
+		region_state:OCE = {
 			create_pop = {
 				culture = icelandic
 				size = 63200
@@ -140,7 +140,7 @@
 		}
 	}
 	s:STATE_GREENLAND = {
-		region_state:DEN = {
+		region_state:OCE = {
 			create_pop = {
 				culture = danish
 				size = 410
@@ -158,7 +158,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_FINLAND = {
-		region_state:FIN = {
+		region_state:EUR = {
 			create_pop = {
 				culture = swedish
 				size = 154900
@@ -178,7 +178,7 @@
 		}
 	}
 	s:STATE_WEST_KARELIA = {
-		region_state:FIN = {
+		region_state:EUR = {
 			create_pop = {
 				culture = finnish
 				size = 177000
@@ -199,7 +199,7 @@
 		}
 	}
 	s:STATE_ALAND = {
-		region_state:FIN = {
+		region_state:EUR = {
 			create_pop = {
 				culture = swedish
 				size = 12000
@@ -211,7 +211,7 @@
 		}
 	}
 	s:STATE_OSTROBOTHNIA = {
-		region_state:FIN = {
+		region_state:EUR = {
 			create_pop = {
 				culture = finnish
 				size = 360000
@@ -1161,7 +1161,7 @@
 		}
 	}
 	s:STATE_POMERANIA = {
-		region_state:PRU = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 1018800
@@ -1266,7 +1266,7 @@
 		}
 	}
 	s:STATE_WESTPHALIA = {
-		region_state:PRU = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -1305,7 +1305,7 @@
 		}			
 	}
 	s:STATE_ANHALT = {
-		region_state:PRU = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 1196400
@@ -1333,7 +1333,7 @@
 		}
 	}
 	s:STATE_RHINELAND = {
-		region_state:PRU = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -1365,7 +1365,7 @@
 		}
 	}
 	s:STATE_NORTH_RHINE = {
-		region_state:PRU = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -1387,7 +1387,7 @@
 	}
 
 	s:STATE_RUHR = {
-		region_state:PRU = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -1404,7 +1404,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG = {
-		region_state:PRU = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 1558704
@@ -1571,7 +1571,7 @@
 				size = 4000
 			}
 		}
-		region_state:PRU = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 112000

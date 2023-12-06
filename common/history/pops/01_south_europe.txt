@@ -485,7 +485,7 @@
 				size = 76000
 			}
 		}
-		region_state:RUS = {
+		region_state:EUR = {
 			create_pop = {
 				culture = turkish
 				size = 2560
