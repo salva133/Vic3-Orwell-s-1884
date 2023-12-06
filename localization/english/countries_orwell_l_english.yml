@@ -9,3 +9,5 @@
   EUR_ADJ: "Oceanian"
   EAS: "East Asia Cooperative"
   EAS_ADJ: "East Asian"
+
+  dyn_c_subject_unified_leadership: "[SCOPE.GetRootScope.GetCountry.GetCustom('adjective')] Sector"
