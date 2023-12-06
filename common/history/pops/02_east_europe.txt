@@ -687,7 +687,7 @@
 		}
 	}
 	s:STATE_WEST_GALICIA = {
-		region_state:AUS = {
+		region_state:EUR = {
 			create_pop = {
 				culture = polish
 				size = 1740004
@@ -725,7 +725,7 @@
 		}
 	}
 	s:STATE_EAST_GALICIA = {
-		region_state:AUS = {
+		region_state:EUR = {
 			create_pop = {
 				culture = polish
 				size = 832800
@@ -1042,7 +1042,7 @@
 		}
 	}
 	s:STATE_MOLDAVIA = {
-		region_state:AUS = {
+		region_state:EUR = {
 			create_pop = {
 				culture = polish
 				size = 20008

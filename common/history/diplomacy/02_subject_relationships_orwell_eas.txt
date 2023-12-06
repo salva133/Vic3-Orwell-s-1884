@@ -1,0 +1,81 @@
+﻿DIPLOMACY = {
+	c:EAS = {
+		create_diplomatic_pact = {
+			country = c:PAN
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:AFG
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:PER
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:KAL
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:MAK
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:JAP
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:BUR
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:DAI
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:LUA
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:CMI
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:SIA
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:CHP
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:CAM
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:BHU
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:SIK
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:BUN
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:NEP
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:BIK
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:JAI
+			type = unified_leadership
+		}
+		
+	}
+}

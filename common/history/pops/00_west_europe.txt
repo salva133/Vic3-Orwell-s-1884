@@ -1182,7 +1182,7 @@
 		}
 	}
 	s:STATE_ELBE = {
-		region_state:BRE = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 102004
@@ -1193,7 +1193,7 @@
 				size = 4000
 			}
 		}
-		region_state:HAM = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 142404
@@ -1203,7 +1203,7 @@
 				size = 8000
 			}
 		}
-		region_state:HAN = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 512788
@@ -1281,7 +1281,7 @@
 				size = 506715
 			}
 		}
-		region_state:LIP = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -1292,7 +1292,7 @@
 				size = 27336
 			}
 		}	
-		region_state:SCM = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -1320,7 +1320,7 @@
 				size = 2996
 			}
 		}
-		region_state:ANH = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 180008
@@ -1348,7 +1348,7 @@
 				size = 323992
 			}
 		}
-		region_state:BAV = {
+		region_state:GER = {
 			create_pop = {
 				culture = south_german
 				size = 251600
@@ -1425,7 +1425,7 @@
 		}
 	}
 	s:STATE_SCHLESWIG_HOLSTEIN = {
-		region_state:HOL = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 374604
@@ -1444,7 +1444,7 @@
 				size = 20000
 			}
 		}
-		region_state:LUB = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 82396
@@ -1455,7 +1455,7 @@
 				size = 2000
 			}
 		}
-		region_state:SCH = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 200000
@@ -1467,7 +1467,7 @@
 		}
 	}
 	s:STATE_WURTTEMBERG = {
-		region_state:WUR = {
+		region_state:GER = {
 			create_pop = {
 				culture = south_german
 				religion = protestant
@@ -1482,7 +1482,7 @@
 				size = 189173
 			}
 		}
-		region_state:HOH = {
+		region_state:GER = {
 			create_pop = {
 				culture = south_german
 				religion = protestant
@@ -1495,7 +1495,7 @@
 		}		
 	}
 	s:STATE_BADEN = {
-		region_state:BAD = {
+		region_state:GER = {
 			create_pop = {
 				culture = south_german
 				size = 905246
@@ -1517,7 +1517,7 @@
 		}
 	}
 	s:STATE_HANNOVER = {
-		region_state:OLD = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 219696
@@ -1528,7 +1528,7 @@
 				size = 38000
 			}
 		}
-		region_state:HAN = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 942208
@@ -1549,7 +1549,7 @@
 		}
 	}
 	s:STATE_BRUNSWICK = {
-		region_state:HAN = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 180000
@@ -1560,7 +1560,7 @@
 				size = 4000
 			}
 		}
-		region_state:BRA = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 220400
@@ -1579,7 +1579,7 @@
 		}
 	}
 	s:STATE_BAVARIA = {
-		region_state:BAV = {
+		region_state:GER = {
 			create_pop = {
 				culture = south_german
 				size = 1682000
@@ -1596,7 +1596,7 @@
 		}
 	}
 	s:STATE_FRANCONIA = {
-		region_state:BAV = {
+		region_state:GER = {
 			create_pop = {
 				culture = south_german
 				size = 1051792
@@ -1613,7 +1613,7 @@
 		}
 	}
 	s:STATE_SAXONY = {
-		region_state:SAX = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 1453212
@@ -1637,7 +1637,7 @@
 				size = 50106
 			}
 		}
-		region_state:MEI = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 133000
@@ -1652,7 +1652,7 @@
 				size = 312
 			}
 		}
-		region_state:WEI = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 230000
@@ -1667,7 +1667,7 @@
 				size = 840
 			}
 		}	
-		region_state:COB = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 154000
@@ -1682,7 +1682,7 @@
 				size = 502
 			}
 		}	
-		region_state:SCW = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 110000
@@ -1699,7 +1699,7 @@
 		}		
 	}
 	s:STATE_HESSE = {
-		region_state:FRM = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 100872
@@ -1714,7 +1714,7 @@
 				size = 8000
 			}
 		}
-		region_state:HES = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 583308
@@ -1729,7 +1729,7 @@
 				size = 5000
 			}
 		}
-		region_state:HEK = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 500688
@@ -1744,7 +1744,7 @@
 				size = 3400
 			}
 		}		
-		region_state:NAS = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 192004
@@ -1759,7 +1759,7 @@
 				size = 208000
 			}
 		}
-		region_state:WLD = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 27436
@@ -1772,7 +1772,7 @@
 		}		
 	}
 	s:STATE_MECKLENBURG = {
-		region_state:MEC = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 490002
@@ -1782,7 +1782,7 @@
 				size = 3996
 			}
 		}
-		region_state:MST = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 85002

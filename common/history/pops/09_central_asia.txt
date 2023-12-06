@@ -338,7 +338,7 @@
 		}
 	}
 	s:STATE_UZBEKIA = {
-		region_state:BUK = {
+		region_state:EAS = {
 			create_pop = {
 				culture = uzbek
 				size = 1552396
@@ -386,7 +386,7 @@
 		}
 	}
 	s:STATE_TAJIKISTAN = {
-		region_state:KOK = {
+		region_state:EAS = {
 			create_pop = {
 				culture = tajik
 				size = 211004
@@ -412,7 +412,7 @@
 		}
 	}
 	s:STATE_KIRGHIZIA = {
-		region_state:KOK = {
+		region_state:EAS = {
 			create_pop = {
 				culture = kirgiz
 				size = 232150
@@ -454,7 +454,7 @@
 				size = 8000
 			}
 		}
-		region_state:CHI = {
+		region_state:EAS = {
 			create_pop = {
 				culture = kirgiz
 				size = 100150
@@ -523,7 +523,7 @@
 		}
 	}
 	s:STATE_SEMIRECHE = {
-		region_state:UZH = {
+		region_state:EAS = {
 			create_pop = {
 				culture = kazak
 				size = 114162
@@ -568,7 +568,7 @@
 	}
 	# Please do not ask where these numbers come from.
 	s:STATE_JETISY = {
-		region_state:CHI = {
+		region_state:EAS = {
 			create_pop = {
 				culture = kazak
 				size = 200642
@@ -763,7 +763,7 @@
 		}
 	}
 	s:STATE_LHASA = {
-		region_state:TIB = {
+		region_state:EAS = {
 			create_pop = {
 				culture = tibetan
 				size = 1820000
@@ -780,7 +780,7 @@
 		}
 	}
 	s:STATE_NGARI = {
-		region_state:TIB = {
+		region_state:EAS = {
 			create_pop = {
 				culture = tibetan
 				size = 824000
