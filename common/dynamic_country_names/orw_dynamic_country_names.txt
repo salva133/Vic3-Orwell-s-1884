@@ -1,0 +1,94 @@
+﻿### Try to keep tags in alphabetical order if it's not too far gone, please.
+################################################################
+## DEFAULT COUNTRY NAMES EXAMPLE CAN BE USED WITH ANY COUNTRY ##
+################################################################
+# Uncomment when need a dynamic_country_name for any country
+OCE = {
+	dynamic_country_name = {
+		name = dyn_c_oce
+		adjective = OCE_ADJ
+		is_main_tag_only = yes
+		priority = 0
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_single_party_state
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_public_schools
+				has_law = law_type:law_public_health_insurance
+				has_law = law_type:law_debt_slavery
+				has_law = law_type:law_isolationism
+				has_law = law_type:law_command_economy
+				has_law = law_type:law_outlawed_dissent
+				has_law = law_type:law_worker_protections
+				has_law = law_type:law_proportional_taxation
+				has_law = law_type:law_mass_conscription
+				has_law = law_type:law_militarized_police
+				has_law = law_type:law_women_in_the_workplace
+				has_law = law_type:law_state_atheism
+				has_law = law_type:law_secret_police
+				has_law = law_type:law_collectivized_agriculture
+			}
+		}
+	}
+}
+
+EUR = {
+	dynamic_country_name = {
+		name = dyn_c_eur
+		adjective = EUR_ADJ
+		is_main_tag_only = yes
+		priority = 0
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_autocracy
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_public_schools
+				has_law = law_type:law_public_health_insurance
+				has_law = law_type:law_debt_slavery
+				has_law = law_type:law_isolationism
+				has_law = law_type:law_command_economy
+				has_law = law_type:law_outlawed_dissent
+				has_law = law_type:law_worker_protections
+				has_law = law_type:law_proportional_taxation
+				has_law = law_type:law_mass_conscription
+				has_law = law_type:law_militarized_police
+				has_law = law_type:law_women_in_the_workplace
+				has_law = law_type:law_state_atheism
+				has_law = law_type:law_secret_police
+				has_law = law_type:law_collectivized_agriculture
+			}
+		}
+	}
+}
+
+EAS = {
+	dynamic_country_name = {
+		name = dyn_c_eas
+		adjective = EAS_ADJ
+		is_main_tag_only = yes
+		priority = 0
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_technocracy
+				has_law = law_type:law_council_republic
+				has_law = law_type:law_public_schools
+				has_law = law_type:law_public_health_insurance
+				has_law = law_type:law_debt_slavery
+				has_law = law_type:law_isolationism
+				has_law = law_type:law_command_economy
+				has_law = law_type:law_outlawed_dissent
+				has_law = law_type:law_worker_protections
+				has_law = law_type:law_proportional_taxation
+				has_law = law_type:law_mass_conscription
+				has_law = law_type:law_militarized_police
+				has_law = law_type:law_women_in_the_workplace
+				has_law = law_type:law_state_atheism
+				has_law = law_type:law_secret_police
+				has_law = law_type:law_collectivized_agriculture
+			}
+		}
+	}
+}
