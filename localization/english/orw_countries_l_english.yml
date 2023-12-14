@@ -1,13 +1,13 @@
 ﻿l_english: 
 
 # Orwell Country Names
-  OCE: "United States of Oceania"
+  dyn_c_oce: "United States of Oceania"
   OCE_ADJ: "Oceanian"
-  ASO: "Airstrip One"
+  dyn_c_aso: "Airstrip One"
   ASO_ADJ: "English"
-  EUR: "Eurasian Federation"
+  dyn_c_eur: "Eurasian Federation"
   EUR_ADJ: "Oceanian"
-  EAS: "East Asia Cooperative"
+  dyn_c_eas: "East Asia Cooperative"
   EAS_ADJ: "East Asian"
 
   dyn_c_subject_unified_leadership: "[SCOPE.GetRootScope.GetCountry.GetCustom('adjective')] Sector"
