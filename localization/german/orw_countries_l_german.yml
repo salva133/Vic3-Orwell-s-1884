@@ -10,4 +10,4 @@
   dyn_c_eas: "Ostasien-Kooperative"
   EAS_ADJ: "Ostasiatisch"
 
-  dyn_c_subject_unified_leadership: "[SCOPE.GetRootScope.GetCountry.GetCustom('adjective')]er Sektor"
+  generic_unified_leadership_junior: "$ADJECTIVE$er Sektor"

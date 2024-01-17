@@ -12,7 +12,7 @@ unified_leadership = {
 		is_customs_union = yes
 		
 		relations_progress_per_day = 1
-		relations_improvement_max = 50
+		relations_improvement_max = 100
 		subject_type = subject_type_unified_leadership
 		
 		actor_can_break = {
@@ -24,18 +24,10 @@ unified_leadership = {
 				severity = invalid
 				always = no
 			}
-		}	
-		
-#		should_invalidate = {
-#			OR = {
-#				NOT = { has_law = law_type:law_monarchy }
-#				scope:target_country = { NOT = { has_law = law_type:law_monarchy } }
-#			}	
-#		}
-		
+		}
 		
 		break_effect = {
-			create_truce = { country = scope:target_country months = 60 }
+			create_truce = { country = scope:target_country months = 240 }
 		}
 	}
 	

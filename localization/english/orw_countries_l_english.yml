@@ -1,13 +1,66 @@
 ﻿l_english: 
 
 # Orwell Country Names
-  dyn_c_oce: "United States of Oceania"
-  OCE_ADJ: "Oceanian"
-  dyn_c_aso: "Airstrip One"
-  ASO_ADJ: "English"
-  dyn_c_eur: "Eurasian Federation"
-  EUR_ADJ: "Oceanian"
-  dyn_c_eas: "East Asia Cooperative"
-  EAS_ADJ: "East Asian"
+ OCE:0 "Oceania"
+ OCE_ADJ:0 "Oceanian"
+ ASO:0 "The Isles"
+ ASO_ADJ:0 "English"
+ EUR:0 "Eurasia"
+ EUR_ADJ:0 "Oceanian"
+ EAS:0 "East Asia"
+ EAS_ADJ:0 "East Asian"
 
-  dyn_c_subject_unified_leadership: "[SCOPE.GetRootScope.GetCountry.GetCustom('adjective')] Sector"
+
+# Dynamic Country Names
+
+ ## Oceania
+ dyn_c_oceania_absolutist_monarchy:0 "Imperial Dominion of Oceania"
+ dyn_c_oceania_monarchy:0 "Royal Federation of Oceania"
+ dyn_c_oceania_dictatorship:0 "State of Oceania"
+ dyn_c_oceania_republic:0 "Federal Republic of Oceania"
+ dyn_c_oceania_communist:0 "United States of Oceania"
+ dyn_c_oceania_communistvote:0 "United States of Oceania"
+ dyn_c_oceania_theocratic:0 "Divine State of Oceania"
+ dyn_c_oceania_theocraticvote:0 "Holy Republic of Oceania"
+ dyn_c_oceania_anarchy:0 "Free Territories of Oceania"
+
+ ## Airstrip One / The Isles
+ dyn_c_airstripone_absolutist_monarchy:0 "Imperial Dominion of The Isles"
+ dyn_c_airstripone_monarchy:0 "Royal Federation of The Isles"
+ dyn_c_airstripone_dictatorship:0 "State of The Isles"
+ dyn_c_airstripone_republic:0 "Federal Republic of The Isles"
+ dyn_c_airstripone_communist:0 "People's republic of The Isles"
+ dyn_c_airstripone_communistvote:0 "Democratic Socialist The Isles"
+ dyn_c_airstripone_theocratic:0 "Divine State of The Isles"
+ dyn_c_airstripone_theocraticvote:0 "Holy Republic of The Isles"
+ dyn_c_airstripone_anarchy:0 "Free Territories of The Isles"
+ dyn_c_airstripone_puppet_OCE:0 "Airstrip One"
+
+ ## Eurasia
+ dyn_c_eurasia_absolutist_monarchy:0 "Imperial Dominion of Eurasia"
+ dyn_c_eurasia_monarchy:0 "Royal Federation of Eurasia"
+ dyn_c_eurasia_dictatorship:0 "State of Eurasia"
+ dyn_c_eurasia_republic:0 "Federal Republic of Eurasia"
+ dyn_c_eurasia_communist:0 "Eurasian Federation"
+ dyn_c_eurasia_communistvote:0 "Eurasian Federation"
+ dyn_c_eurasia_theocratic:0 "Divine State of Eurasia"
+ dyn_c_eurasia_theocraticvote:0 "Holy Republic of Eurasia"
+ dyn_c_eurasia_anarchy:0 "Free Territories of Eurasia"
+
+ ## East Asia
+ dyn_c_eastasia_absolutist_monarchy:0 "Imperial Dominion of East Asia"
+ dyn_c_eastasia_monarchy:0 "Royal Federation of East Asia"
+ dyn_c_eastasia_dictatorship:0 "State of East Asia"
+ dyn_c_eastasia_republic:0 "Federal Republic of East Asia"
+ dyn_c_eastasia_communist:0 "East Asia Cooperative"
+ dyn_c_eastasia_communistvote:0 "East Asia Cooperative"
+ dyn_c_eastasia_theocratic:0 "Divine State of East Asia"
+ dyn_c_eastasia_theocraticvote:0 "Holy Republic of East Asia"
+ dyn_c_eastasia_anarchy:0 "Free Territories of East Asia"
+
+
+ # Subject Types
+ generic_unified_leadership_junior_OCE:0 "$ADJECTIVE$ Sector"
+ generic_unified_leadership_junior_EUR:0 "$ADJECTIVE$ District"
+ generic_unified_leadership_junior_EAS:0 "$ADJECTIVE$ Prefecture"
+ generic_unified_leadership_junior_ADJ:0 "$ADJECTIVE$"
