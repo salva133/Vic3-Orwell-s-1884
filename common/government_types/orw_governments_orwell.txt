@@ -1,24 +1,30 @@
 ﻿gov_ingsoc = {
 	transfer_of_power = dictatorial
-	male_ruler = "RULER_TITLE_BIG_BROTHER"
-	female_ruler = "RULER_TITLE_BIG_BROTHER"
+	male_ruler = "RULER_BIG_BROTHER"
+	female_ruler = "RULER_BIG_BROTHER"
 	possible = {
-		has_law = law_type:law_single_party_state
 		has_law = law_type:law_council_republic
-		has_law = law_type:law_public_schools
-		has_law = law_type:law_public_health_insurance
-		has_law = law_type:law_debt_slavery
-		has_law = law_type:law_isolationism
-		has_law = law_type:law_command_economy
-		has_law = law_type:law_outlawed_dissent
-		has_law = law_type:law_worker_protections
-		has_law = law_type:law_proportional_taxation
-		has_law = law_type:law_mass_conscription
-		has_law = law_type:law_militarized_police
-		has_law = law_type:law_women_in_the_workplace
-		has_law = law_type:law_state_atheism
-		has_law = law_type:law_secret_police
-		has_law = law_type:law_collectivized_agriculture
+		has_law = law_type:law_single_party_state
+		exists = c:OCE
+		c:OCE = ROOT
+	}
+	on_government_type_change = {
+		change_to_dictatorial = yes
+	}
+	on_post_government_type_change = {
+		post_change_to_dictatorial = yes
+	}
+}
+
+gov_ingsoc_aso = {
+	transfer_of_power = dictatorial
+	male_ruler = "RULER_BIG_BROTHER"
+	female_ruler = "RULER_BIG_BROTHER"
+	possible = {
+		has_law = law_type:law_council_republic
+		has_law = law_type:law_single_party_state
+		exists = c:ASO
+		c:ASO = ROOT
 	}
 	on_government_type_change = {
 		change_to_dictatorial = yes
@@ -33,22 +39,10 @@ gov_neobolshevism = {
 	male_ruler = "RULER_GENERAL_SECRETARY"
 	female_ruler = "RULER_GENERAL_SECRETARY"
 	possible = {
-		has_law = law_type:law_autocracy
 		has_law = law_type:law_council_republic
-		has_law = law_type:law_public_schools
-		has_law = law_type:law_public_health_insurance
-		has_law = law_type:law_debt_slavery
-		has_law = law_type:law_isolationism
-		has_law = law_type:law_command_economy
-		has_law = law_type:law_outlawed_dissent
-		has_law = law_type:law_worker_protections
-		has_law = law_type:law_proportional_taxation
-		has_law = law_type:law_mass_conscription
-		has_law = law_type:law_militarized_police
-		has_law = law_type:law_women_in_the_workplace
-		has_law = law_type:law_state_atheism
-		has_law = law_type:law_secret_police
-		has_law = law_type:law_collectivized_agriculture
+		has_law = law_type:law_autocracy
+		exists = c:EUR
+		c:EUR = ROOT
 	}
 	on_government_type_change = {
 		change_to_dictatorial = yes
@@ -60,25 +54,13 @@ gov_neobolshevism = {
 
 gov_obliterationoftheself = {
 	transfer_of_power = dictatorial
-	male_ruler = "RULER_TITLE_GREAT_LEADER"
-	female_ruler = "RULER_TITLE_GREAT_LEADER"
+	male_ruler = "RULER_GREAT_LEADER"
+	female_ruler = "RULER_GREAT_LEADER"
 	possible = {
-		has_law = law_type:law_technocracy
 		has_law = law_type:law_council_republic
-		has_law = law_type:law_public_schools
-		has_law = law_type:law_public_health_insurance
-		has_law = law_type:law_debt_slavery
-		has_law = law_type:law_isolationism
-		has_law = law_type:law_command_economy
-		has_law = law_type:law_outlawed_dissent
-		has_law = law_type:law_worker_protections
-		has_law = law_type:law_proportional_taxation
-		has_law = law_type:law_mass_conscription
-		has_law = law_type:law_militarized_police
-		has_law = law_type:law_women_in_the_workplace
-		has_law = law_type:law_state_atheism
-		has_law = law_type:law_secret_police
-		has_law = law_type:law_collectivized_agriculture
+		has_law = law_type:technocracy
+		exists = c:EAS
+		c:EAS = ROOT
 	}
 	on_government_type_change = {
 		change_to_dictatorial = yes
