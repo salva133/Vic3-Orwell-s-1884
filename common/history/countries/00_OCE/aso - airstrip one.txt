@@ -1,8 +1,6 @@
 ﻿COUNTRIES = {
 	c:ASO = {
 		
-		ig:ig_inner_party = { add_ruling_interest_group = yes }
-		
 		effect_starting_technology_tier_5_tech = yes
 
 		set_market_capital = STATE_HOME_COUNTIES
