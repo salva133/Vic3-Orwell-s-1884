@@ -1,6 +1,0 @@
-##### MAINTHEME
-
-main_theme_track_orw = {
-	music = "file:/music/main_theme.mp3"
-	can_be_interrupted = yes
-}
