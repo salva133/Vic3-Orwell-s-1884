@@ -1,12 +1,12 @@
 ﻿gov_ingsoc = {
 	transfer_of_power = dictatorial
-	male_ruler = "RULER_BIG_BROTHER"
-	female_ruler = "RULER_BIG_BROTHER"
+	male_ruler = "RULER_TITLE_BIG_BROTHER"
+	female_ruler = "RULER_TITLE_BIG_BROTHER"
 	possible = {
-		has_law = law_type:law_council_republic
-		has_law = law_type:law_single_party_state
 		exists = c:OCE
 		c:OCE = ROOT
+		has_law = law_type:law_council_republic
+		has_law = law_type:law_single_party_state
 	}
 	on_government_type_change = {
 		change_to_dictatorial = yes
@@ -18,13 +18,13 @@
 
 gov_ingsoc_aso = {
 	transfer_of_power = dictatorial
-	male_ruler = "RULER_BIG_BROTHER"
-	female_ruler = "RULER_BIG_BROTHER"
+	male_ruler = "RULER_TITLE_BIG_BROTHER"
+	female_ruler = "RULER_TITLE_BIG_BROTHER"
 	possible = {
+		exists = c:OCE
+		c:OCE = ROOT
 		has_law = law_type:law_council_republic
 		has_law = law_type:law_single_party_state
-		exists = c:ASO
-		c:ASO = ROOT
 	}
 	on_government_type_change = {
 		change_to_dictatorial = yes
@@ -36,13 +36,13 @@ gov_ingsoc_aso = {
 
 gov_neobolshevism = {
 	transfer_of_power = dictatorial
-	male_ruler = "RULER_GENERAL_SECRETARY"
-	female_ruler = "RULER_GENERAL_SECRETARY"
+	male_ruler = "RULER_TITLE_GENERAL_SECRETARY"
+	female_ruler = "RULER_TITLE_GENERAL_SECRETARY"
 	possible = {
-		has_law = law_type:law_council_republic
-		has_law = law_type:law_autocracy
 		exists = c:EUR
 		c:EUR = ROOT
+		has_law = law_type:law_council_republic
+		has_law = law_type:law_autocracy
 	}
 	on_government_type_change = {
 		change_to_dictatorial = yes
@@ -54,13 +54,13 @@ gov_neobolshevism = {
 
 gov_obliterationoftheself = {
 	transfer_of_power = dictatorial
-	male_ruler = "RULER_GREAT_LEADER"
-	female_ruler = "RULER_GREAT_LEADER"
+	male_ruler = "RULER_RULER_TITLE_GREAT_LEADER"
+	female_ruler = "RULER_RULER_TITLE_GREAT_LEADER"
 	possible = {
-		has_law = law_type:law_council_republic
-		has_law = law_type:technocracy
 		exists = c:EAS
 		c:EAS = ROOT
+		has_law = law_type:law_council_republic
+		has_law = law_type:technocracy
 	}
 	on_government_type_change = {
 		change_to_dictatorial = yes
