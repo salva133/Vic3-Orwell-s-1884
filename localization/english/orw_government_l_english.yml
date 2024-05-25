@@ -11,6 +11,6 @@
  gov_obliterationoftheself_desc: "The 'Obliteration of Self' government is based on the principle of absolute self-sacrifice in favour of the collective. This form of government promotes an extreme form of collectivism in which individual identity and self-expression are completely abandoned in favour of the collective goals and well-being of the state"
 
 # Orwell Titles
- RULER_BIG_BROTHER: "Big Brother"
- RULER_GENERAL_SECRETARY: "General-Secretary"
- RULER_GREAT_LEADER: "Great Leader"
+ RULER_TITLE_BIG_BROTHER: "Big Brother"
+ RULER_TITLE_GENERAL_SECRETARY: "General-Secretary"
+ RULER_TITLE_RULER_TITLE_GREAT_LEADER: "Great Leader"
