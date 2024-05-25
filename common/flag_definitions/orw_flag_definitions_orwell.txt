@@ -17,7 +17,7 @@ ASO = {
 		priority = 1
 		allow_overlord_canton = no
 		trigger = {
-			government_type = gov_ingsoc
+			government_type = gov_ingsoc_aso
 		}
 	}
 }
