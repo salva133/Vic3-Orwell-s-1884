@@ -23,8 +23,7 @@
 	}
 	
 	same_autonomy_subject_type_alternatives = {
-		subject_type_dominion
-		subject_type_tributary # Intentionally set both here and in higher_autonomy_subject_type_alternatives to handle unrecognized overlord changing out of monarchy
+		subject_type_puppet
 	}	
 	
 	valid_overlord_country_types = {
@@ -42,11 +41,7 @@
 	valid_overlord_ranks = {
 		great_power
 		major_power
-		minor_power
-		insignificant_power
-		unrecognized_major_power
-		unrecognized_regional_power
-		unrecognized_power		
+		minor_power	
 	}
 	
 	valid_subject_ranks = {
