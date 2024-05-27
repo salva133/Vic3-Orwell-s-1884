@@ -1,45 +1,48 @@
 # Orwell 
 OCE = {
 	flag_definition = {
-		coa = dyn_c_oce
-		subject_canton = dyn_c_oce
-		priority = 1
+		coa = OCE
+		subject_canton = OCE
+		priority = 1000
 		allow_overlord_canton = no
 		trigger = {
-			government_type = gov_ingsoc
+			always = yes
 		}
 	}
 }
+
 ASO = {
 	flag_definition = {
-		coa = dyn_c_aso
-		subject_canton = dyn_c_aso
-		priority = 1
+		coa = ASO
+		subject_canton = ASO
+		priority = 1000
 		allow_overlord_canton = no
 		trigger = {
-			government_type = gov_ingsoc_aso
+			always = yes
 		}
 	}
 }
+
 EUR = {
 	flag_definition = {
-		coa = dyn_c_eur
-		subject_canton = dyn_c_eur
-		priority = 1
+		coa = EUR
+		subject_canton = EUR
+		priority = 1000
 		allow_overlord_canton = no
 		trigger = {
-			government_type = gov_neobolshevism
+			always = yes
 		}
 	}
 }
+
 EAS = {
 	flag_definition = {
-		coa = dyn_c_eas
-		subject_canton = dyn_c_eas
-		priority = 1
+		coa = EAS
+		subject_canton = EAS
+		priority = 1000
 		allow_overlord_canton = no
 		trigger = {
-			government_type = gov_obliterationoftheself
+			always = yes
 		}
 	}
 }
