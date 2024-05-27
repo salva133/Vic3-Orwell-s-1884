@@ -3,7 +3,7 @@ OCE = {
 	color1 = "black"
 
 	textured_emblem = {
-		texture = "orw_ingsoc_oce.dds"
+		texture = "OCE.dds"
 	}
 }
 ASO = {
@@ -11,7 +11,7 @@ ASO = {
 	color1 = "black"
 
 	textured_emblem = {
-		texture = "orw_ingsoc_aso.dds"
+		texture = "ASO.dds"
 	}
 }
 EUR = {
@@ -19,7 +19,7 @@ EUR = {
 	color1 = "red"
 
 	textured_emblem = {
-		texture = "orw_ingsoc.dds"
+		texture = "EUR_2.dds"
 	}
 }
 EAS = {
@@ -27,6 +27,6 @@ EAS = {
 	color1 = "red"
 
 	textured_emblem = {
-		texture = "orw_ingsoc.dds"
+		texture = "EAS.dds"
 	}
 }
