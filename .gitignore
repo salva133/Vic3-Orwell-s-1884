@@ -1,3 +1,6 @@
 *.py
 *.bat
 *.code-workspace
+*.png
+*.jpg
+*.jpeg
