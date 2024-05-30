@@ -1,5 +1,5 @@
 oce_leader_template = {
-    # first_name = ""
+    # first_name = Eric
     last_name = Blair 
 	female = no
     historical = yes
@@ -17,8 +17,8 @@ oce_leader_template = {
     }
 }
 eur_leader_template = {
-    # first_name = ""
-    last_name = Blair 
+    # first_name = Eric
+    # last_name = Blair 
 	female = no
     historical = yes
     culture = cu:russian
@@ -35,8 +35,8 @@ eur_leader_template = {
     }
 }
 eas_leader_template = {
-    # first_name = ""
-    last_name = Blair 
+    # first_name = "Eric
+    # last_name = Blair 
 	female = no
     historical = yes
     culture = cu:manschu
