@@ -1,11 +1,11 @@
 ﻿COUNTRIES = {
 	c:IQU = {
-		effect_starting_technology_tier_3_tech = yes
+		effect_starting_technology_tier_5_tech = yes
 		effect_starting_politics_conservative = yes
 		
 		add_technology_researched = empiricism
 		
-		activate_law = law_type:law_single_party_state
+		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_council_republic
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_public_health_insurance
@@ -35,10 +35,6 @@
 
 		add_modifier = {
 			name = age_of_caudillos_modifier
-		}
-
-		add_journal_entry = {
-			type = je_peru_bolivia
 		}
 	}
 }
