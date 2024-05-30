@@ -1,7 +1,7 @@
 ﻿COUNTRIES = {
 	c:SIA = {
-		effect_starting_technology_tier_4_tech = yes
-		activate_law = law_type:law_technocracy
+		effect_starting_technology_tier_5_tech = yes
+		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_council_republic
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_public_health_insurance

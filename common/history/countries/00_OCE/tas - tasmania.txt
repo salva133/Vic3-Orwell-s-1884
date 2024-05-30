@@ -4,7 +4,7 @@
 		
 		effect_starting_technology_tier_2_tech = yes
 		
-		activate_law = law_type:law_single_party_state
+		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_council_republic
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_public_health_insurance
@@ -25,6 +25,10 @@
 		activate_law = law_type:law_closed_borders
 
 		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+
+		ig:ig_inner_party = {
 			add_ruling_interest_group = yes
 		}
 	}
