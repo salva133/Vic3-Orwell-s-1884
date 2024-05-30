@@ -1,0 +1,54 @@
+oce_leader_template = {
+    # first_name = ""
+    last_name = Blair 
+	female = no
+    historical = yes
+    culture = cu:yankee
+    ruler = yes
+    ig_leader = yes
+    interest_group = ig_inner_party
+    ideology = ideology_inner_party
+    birth_date = 1831.6.25
+    # dna = big_brother
+    traits = {
+        bigoted
+        demagogue
+        expert_political_operator
+    }
+}
+eur_leader_template = {
+    # first_name = ""
+    last_name = Blair 
+	female = no
+    historical = yes
+    culture = cu:russian
+    ruler = yes
+    ig_leader = yes
+    interest_group = ig_inner_party
+    ideology = ideology_inner_party
+    birth_date = 1831.6.25
+    # dna = big_brother
+    traits = {
+        bigoted
+        demagogue
+        expert_political_operator
+    }
+}
+eas_leader_template = {
+    # first_name = ""
+    last_name = Blair 
+	female = no
+    historical = yes
+    culture = cu:manschu
+    ruler = yes
+    ig_leader = yes
+    interest_group = ig_inner_party
+    ideology = ideology_inner_party
+    birth_date = 1831.6.25
+    # dna = big_brother
+    traits = {
+        bigoted
+        demagogue
+        expert_political_operator
+    }
+}
