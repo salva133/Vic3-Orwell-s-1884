@@ -5,8 +5,6 @@ ig_outer_party = {
 	index = 9
 	ideologies = {
 		ideology_outer_party
-		ideology_patriotic
-		ideology_reactionary
 	}
 	enable = {
 		always = yes

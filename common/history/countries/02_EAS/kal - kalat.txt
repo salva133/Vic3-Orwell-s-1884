@@ -1,8 +1,8 @@
 ﻿COUNTRIES = {
 	c:KAL = {
-		effect_starting_technology_tier_4_tech = yes
+		effect_starting_technology_tier_5_tech = yes
 		
-		activate_law = law_type:law_technocracy
+		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_council_republic
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_public_health_insurance

@@ -1,6 +1,6 @@
 ﻿COUNTRIES = {
 	c:LUC = {
-		effect_starting_technology_tier_3_tech = yes
+		effect_starting_technology_tier_5_tech = yes
 		
 		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_council_republic

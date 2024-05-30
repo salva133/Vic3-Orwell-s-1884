@@ -5,7 +5,6 @@ ig_inner_party = {
 	index = 8
 	ideologies = {
 		ideology_inner_party
-		ideology_populist
 	}
 	enable = {
 		always = yes

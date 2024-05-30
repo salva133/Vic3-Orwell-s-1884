@@ -1,14 +1,13 @@
 ﻿COUNTRIES = {
 	c:BRZ = {
 		# Exact date?
-		set_next_election_date = 1839.1.1
 		
-		effect_starting_technology_tier_3_tech = yes
+		effect_starting_technology_tier_5_tech = yes
 		effect_starting_politics_conservative = yes
 
 		add_technology_researched = empiricism
 
-		activate_law = law_type:law_single_party_state
+		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_council_republic
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_public_health_insurance
@@ -34,22 +33,12 @@
 		add_taxed_goods = g:liquor
 
 
-		ig:ig_intelligentsia = {
+		ig:ig_inner_party = {
 			add_ruling_interest_group = yes
 		}
 
 		ig:ig_devout = {
 			set_interest_group_name = ig_catholic_church
-		}
-
-		add_journal_entry = { type = ragamuffin_war }
-		if = {
-			limit = {
-				has_dlc_feature = rp1_content
-			}
-			add_journal_entry = { type = je_matter_of_slavery }
-			add_journal_entry = { type = je_pedro_brazil }
-			add_journal_entry = { type = je_brazilian_nation_building }
 		}
 
 		add_modifier = {
