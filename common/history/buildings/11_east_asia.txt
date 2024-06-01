@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_DZUNGARIA={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -10,7 +10,7 @@
 		}
 	}
 	s:STATE_TIANSHAN={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -20,7 +20,7 @@
 		}
 	}
 	s:STATE_SICHUAN={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -48,7 +48,7 @@
 		}
 	}
 	s:STATE_YUNNAN={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=8
@@ -76,7 +76,7 @@
 		}
 	}
 	s:STATE_GUIZHOU={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -122,7 +122,7 @@
 		}
 	}
 	s:STATE_SHAOZHOU={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=8
@@ -156,7 +156,7 @@
 		}
 	}
 	s:STATE_ALXA={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -166,7 +166,7 @@
 		}
 	}
 	s:STATE_HINGGAN={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -176,7 +176,7 @@
 		}
 	}
 	s:STATE_GUANGXI={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=9
@@ -216,7 +216,7 @@
 		}
 	}
 	s:STATE_BEIJING={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=20
@@ -272,11 +272,11 @@
 		}
 	}
 	s:STATE_SHENGJING={
-		region_state:CHI={
+		region_state:EAS={
 		}
 	}
 	s:STATE_OUTER_MANCHURIA={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_logging_camp"
 				level=6
@@ -292,7 +292,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_MANCHURIA={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=6
@@ -320,7 +320,7 @@
 		}
 	}
 	s:STATE_NORTHERN_MANCHURIA={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_logging_camp"
 				level=8
@@ -336,7 +336,7 @@
 		}
 	}
 	s:STATE_SHANXI={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=7
@@ -358,7 +358,7 @@
 		}
 	}
 	s:STATE_NINGXIA={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=4
@@ -374,7 +374,7 @@
 		}
 	}
 	s:STATE_GANSU={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_livestock_ranch"
 				level=6
@@ -384,7 +384,7 @@
 		}
 	}
 	s:STATE_XIAN={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=4
@@ -400,7 +400,7 @@
 		}
 	}
 	s:STATE_QINGHAI={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_livestock_ranch"
 				level=5
@@ -410,7 +410,7 @@
 		}
 	}
 	s:STATE_CHONGQING={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=12
@@ -438,7 +438,7 @@
 		}
 	}
 	s:STATE_GUANGDONG={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=13
@@ -516,7 +516,7 @@
 		}
 	}
 	s:STATE_FUJIAN={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=11
@@ -550,7 +550,7 @@
 		}
 	}
 	s:STATE_ZHEJIANG={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -584,7 +584,7 @@
 		}
 	}
 	s:STATE_JIANGSU={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=12
@@ -612,7 +612,7 @@
 		}
 	}
 	s:STATE_NANJING={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=17
@@ -646,7 +646,7 @@
 		}
 	}
 	s:STATE_HENAN={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=15
@@ -674,7 +674,7 @@
 		}
 	}
 	s:STATE_ZHILI={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=13
@@ -714,7 +714,7 @@
 		}
 	}
 	s:STATE_JIANGXI={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=12
@@ -748,7 +748,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_ANHUI={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=12
@@ -782,7 +782,7 @@
 		}
 	}
 	s:STATE_NORTHERN_ANHUI={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=11
@@ -804,7 +804,7 @@
 		}
 	}
 	s:STATE_WESTERN_HUBEI={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=9
@@ -838,7 +838,7 @@
 		}
 	}
 	s:STATE_EASTERN_HUBEI={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -878,7 +878,7 @@
 		}
 	}
 	s:STATE_HUNAN={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=6
@@ -906,7 +906,7 @@
 		}
 	}
 	s:STATE_FORMOSA={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_fishing_wharf"
 				level=5
@@ -934,7 +934,7 @@
 		}
 	}
 	s:STATE_SHANDONG={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=9
@@ -980,7 +980,7 @@
 		}
 	}
 	s:STATE_SUZHOU={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_government_administration"
 				level=16
@@ -1014,7 +1014,7 @@
 		}
 	}
 	s:STATE_ULIASTAI={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_livestock_ranch"
 				level=3
@@ -1024,7 +1024,7 @@
 		}
 	}
 	s:STATE_URGA={
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_livestock_ranch"
 				level=5

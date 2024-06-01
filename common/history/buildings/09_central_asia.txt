@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_DAGESTAN={
-		region_state:RUS={
+		region_state:EUR={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -36,7 +36,7 @@
 		}
 	}
 	s:STATE_KUBAN={
-		region_state:RUS={
+		region_state:EUR={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -78,7 +78,7 @@
 		}
 	}
 	s:STATE_ARMENIA={
-		region_state:RUS={
+		region_state:EUR={
 			create_building={
 				building="building_wheat_farm"
 				level=2
@@ -88,7 +88,7 @@
 		}
 	}
 	s:STATE_AZERBAIJAN={
-		region_state:RUS={
+		region_state:EUR={
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -104,7 +104,7 @@
 		}
 	}
 	s:STATE_GREATER_CAUCASUS={
-		region_state:RUS={
+		region_state:EUR={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -114,7 +114,7 @@
 		}
 	}
 	s:STATE_SAMARA={
-		region_state:RUS={
+		region_state:EUR={
 			create_building={
 				building="building_arms_industry"
 				level=5
@@ -144,7 +144,7 @@
 		}
 	}
 	s:STATE_KAZAN={
-		region_state:RUS={
+		region_state:EUR={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -184,7 +184,7 @@
 		}
 	}
 	s:STATE_TARTARIA={
-		region_state:RUS={
+		region_state:EUR={
 			create_building={
 				building="building_iron_mine"
 				level=8
@@ -200,7 +200,7 @@
 		}
 	}
 	s:STATE_ASTRAKHAN={
-		region_state:RUS={
+		region_state:EUR={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -210,7 +210,7 @@
 		}
 	}
 	s:STATE_URALSK={
-		region_state:RUS={
+		region_state:EUR={
 		}
 		region_state:KZH={
 			create_building={
@@ -328,7 +328,7 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:CHI={
+		region_state:EAS={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -370,15 +370,15 @@
 				activate_production_methods={ "pm_no_organization" }
 			}
 		}
-		region_state:RUS={
+		region_state:EUR={
 		}
 	}
 	s:STATE_JETISY={
-		region_state:CHI={
+		region_state:EAS={
 		}
 	}
 	s:STATE_AKMOLINSK={
-		region_state:RUS={
+		region_state:EUR={
 		}
 		region_state:OZH={
 			create_building={

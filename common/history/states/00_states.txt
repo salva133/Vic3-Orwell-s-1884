@@ -5406,7 +5406,7 @@ STATES = {
 		add_homeland = cu:ainu
 
 		add_claim = c:JAP
-		add_claim = c:RUS
+		add_claim = c:EUR
 	}	
 	s:STATE_HOKKAIDO = {
 		create_state = {
@@ -6261,7 +6261,7 @@ STATES = {
 		
 		add_homeland = cu:north_caucasian
 		add_claim = c:CHC
-		add_claim = c:RUS
+		add_claim = c:EUR
 	}
 	s:STATE_KUBAN = {
 		create_state = {
@@ -6275,7 +6275,7 @@ STATES = {
 		add_homeland = cu:circassian
 		add_homeland = cu:north_caucasian
 		add_claim = c:CIR
-		add_claim = c:RUS
+		add_claim = c:EUR
 	}
 	s:STATE_ASTRAKHAN = {
 		create_state = {

@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_URAL={
-		region_state:RUS={
+		region_state:EUR={
 			create_building={
 				building="building_iron_mine"
 				level=4
@@ -16,41 +16,41 @@
 		}
 	}
 	s:STATE_TOMSK={
-		region_state:RUS={
+		region_state:EUR={
 		}
-		region_state:CHI={
+		region_state:EAS={
 		}
 	}
 	s:STATE_TUVA={
-		region_state:CHI={
+		region_state:EAS={
 		}
 	}
 	s:STATE_TOBOLSK={
-		region_state:RUS={
+		region_state:EUR={
 		}
 	}
 	s:STATE_UPPER_YENISEYSK={
-		region_state:RUS={
+		region_state:EUR={
 		}
 	}
 	s:STATE_OB={
-		region_state:RUS={
+		region_state:EUR={
 		}
 	}
 	s:STATE_NENETSIA={
-		region_state:RUS={
+		region_state:EUR={
 		}
 	}
 	s:STATE_CHUKOTKA={
-		region_state:RUS={
+		region_state:EUR={
 		}
 	}
 	s:STATE_KAMCHATKA={
-		region_state:RUS={
+		region_state:EUR={
 		}
 	}
 	s:STATE_OKHOTSK={
-		region_state:RUS={
+		region_state:EUR={
 			create_building={
 				building="building_port"
 				level=1
@@ -60,15 +60,15 @@
 		}
 	}
 	s:STATE_YAKUTSK={
-		region_state:RUS={
+		region_state:EUR={
 		}
 	}
 	s:STATE_TRANS_BAIKAL={
-		region_state:RUS={
+		region_state:EUR={
 		}
 	}
 	s:STATE_IRKUTSK={
-		region_state:RUS={
+		region_state:EUR={
 		}
 	}
 }
