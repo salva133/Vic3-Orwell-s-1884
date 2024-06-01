@@ -19,7 +19,7 @@ EUR = {
 	color1 = "red"
 
 	textured_emblem = {
-		texture = "EUR_2.dds"
+		texture = "EUR.dds"
 	}
 }
 EAS = {
