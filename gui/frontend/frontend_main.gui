@@ -276,7 +276,7 @@ widget = {
 				blockoverride "menu_logo_delay" { 
 					delay = 1.5
 				}
-			} 
+			}
 
 			### BUTTONS  
 			vbox = {
