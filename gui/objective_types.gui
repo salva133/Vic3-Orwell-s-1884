@@ -484,9 +484,9 @@ types objective_types
 
 								scrollwidget = {
 									fixedgridbox = {
-										addcolumn = 320
+										addcolumn = 420
 										addrow = 560
-										maxhorizontalslots = 4
+										maxhorizontalslots = 3
 										parentanchor = left
 										position = { 10 0 }
 										flipdirection = yes
@@ -494,7 +494,7 @@ types objective_types
 										
 										item = {
 											widget = {
-												size = { 310 550 }
+												size = { 410 550 }
 												
 												button = {
 													using = default_button
@@ -517,7 +517,7 @@ types objective_types
 														spacing = 12
 													
 														icon = {
-															size = { 48 32 }
+															size = { 88 60 }
 															# Using medium size textures in small flag for better downscaling of flag details
 															texture = "[CountryDefinition.GetBaseFlag.GetMediumFlagTexture]"
 															frame = "[CountryDefinition.GetBaseFlag.GetMediumFlagFrame]"
