@@ -1,0 +1,27 @@
+template default_header_bg
+{
+	using = header_graphical_properties
+
+	modify_texture = {
+		texture = "gfx/interface/backgrounds/header_bg_shading.dds"
+		spriteType = Corneredstretched
+		spriteborder = { 0 0 }
+		blend_mode = overlay
+		alpha = 0.7
+	}
+
+	modify_texture = {
+		using = fancy_pattern_2
+		alpha = 0.65
+	}
+	modify_texture = {
+		texture = "gfx/interface/backgrounds/header_borders.dds"
+		spriteType = Corneredstretched
+		texture_density = 2
+		spriteborder = { 0 20 }
+		blend_mode = normal
+	}
+
+	block "header_fade_mask" {}
+	block "header_mask" {}
+}
