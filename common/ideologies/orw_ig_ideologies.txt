@@ -136,7 +136,7 @@ ideology_outer_party = {
 	}
 }
 
-ideology_plebiscite = {
+ideology_proletariat = {
 	icon = "gfx/interface/icons/ideology_icons/proletarian.dds"
 
 	lawgroup_free_speech = {

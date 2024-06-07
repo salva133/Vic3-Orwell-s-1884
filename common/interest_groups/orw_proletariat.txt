@@ -1,16 +1,16 @@
-ig_plebiscite = {
+ig_proletariat = {
 	color = hsv{ 0 0.65 1 }
 	texture = "gfx/interface/icons/ig_icons/trade_unions.dds"
 	layer = "revolution_dynamic_trade_unions"
 	index = 10
 	ideologies = {
-		ideology_plebiscite
+		ideology_proletariat
 	}
 	enable = {
 		always = yes
 	}
 	on_enable = {
-		ig:ig_plebiscite = {
+		ig:ig_proletariat = {
 			set_ig_trait = ig_trait:ig_trait_work_to_rule
 			set_ig_trait = ig_trait:ig_trait_industrial_organizers
 			set_ig_trait = ig_trait:ig_trait_solidarity
@@ -233,7 +233,7 @@ ig_plebiscite = {
 		# Agitators will never be part of a marginalized IG
 		if = {
 			limit = {
-				owner.ig:ig_plebiscite = {
+				owner.ig:ig_proletariat = {
 					is_marginal = yes
 				}
 			}
