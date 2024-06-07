@@ -21,12 +21,12 @@ ig_inner_party = {
 	on_character_ig_membership = {
 	}
 	pop_potential = {
-		NOR = {
-			is_pop_type = aristocrats
-			is_pop_type = capitalists
-			is_pop_type = shopkeepers
-			is_pop_type = officers
-		}
+		# NOR = {
+		# 	is_pop_type = aristocrats
+		# 	is_pop_type = capitalists
+		# 	is_pop_type = shopkeepers
+		# 	is_pop_type = officers
+		# }
 		OR = {
 			AND = {
 				custom_tooltip = {
