@@ -1,84 +1,91 @@
 # The inital war state of war
-
 DIPLOMATIC_PLAYS = {
 	c:EUR = {
+		# War of Europe
 		create_diplomatic_play = {
+
 			name = eurasian_unification
 
 			war = yes
 			
-			type = dp_make_protectorate
-
-			target_country = c:SWI
-			add_war_goal = {
-				holder = c:SWI
-				type = war_reparations
-			}
-		}
-		create_diplomatic_play = {
-			name = eurasian_unification
-
-			war = yes
-			
-			type = dp_make_protectorate
-
-			target_country = c:POR
-			add_war_goal = {
-				holder = c:POR
-				type = war_reparations
-			}
-		}
-		create_diplomatic_play = {
-			name = eurasian_unification
-
-			war = yes
-			
-			type = dp_make_protectorate
-
-			target_country = c:BEL
-			add_war_goal = {
-				holder = c:BEL
-				type = war_reparations
-			}
-		}
-		create_diplomatic_play = {
-			name = eurasian_unification
-
-			war = yes
-			
-			type = dp_make_protectorate
-
-			target_country = c:NET
-			add_war_goal = {
-				holder = c:NET
-				type = war_reparations
-			}
-		}
-		create_diplomatic_play = {
-			name = eurasian_unification
-
-			war = yes
-			
-			type = dp_make_protectorate
+			type = dp_annex_war
 
 			target_country = c:FRA
+			add_target_backers = { c:SWI c:POR c:BEL c:NET c:SPA c:LUX}
+
+			# War Goals EUR
 			add_war_goal = {
 				holder = c:FRA
 				type = war_reparations
+				target_country = c:EUR
 			}
-		}
-		create_diplomatic_play = {
-			name = eurasian_unification
-
-			war = yes
-			
-			type = dp_make_protectorate
-
-			target_country = c:SPA
-
+			add_war_goal = {
+				holder = c:SWI
+				type = war_reparations
+				target_country = c:EUR
+			}
+			add_war_goal = {
+				holder = c:POR
+				type = war_reparations
+				target_country = c:EUR
+			}
+			add_war_goal = {
+				holder = c:BEL
+				type = war_reparations
+				target_country = c:EUR
+			}
+			add_war_goal = {
+				holder = c:NET
+				type = war_reparations
+				target_country = c:EUR
+			}
 			add_war_goal = {
 				holder = c:SPA
 				type = war_reparations
+				target_country = c:EUR
+			}
+			add_war_goal = {
+				holder = c:LUX
+				type = war_reparations
+				target_country = c:EUR
+			}
+			
+			# War Goals Defender
+			add_war_goal = {
+				holder = c:EUR
+				type = annex_country
+				target_country = c:SWI
+				primary_demand = yes
+			}
+			add_war_goal = {
+				holder = c:EUR
+				type = annex_country
+				target_country = c:POR
+				primary_demand = yes
+			}
+			add_war_goal = {
+				holder = c:EUR
+				type = annex_country
+				target_country = c:BEL
+				primary_demand = yes
+			}
+			add_war_goal = {
+				holder = c:EUR
+				type = annex_country
+				target_country = c:NET
+				primary_demand = yes
+			}
+			add_war_goal = {
+				holder = c:EUR
+				type = annex_country
+				target_country = c:SPA
+				primary_demand = yes
+			}
+			add_war_goal = {
+				holder = c:EUR
+				type = annex_country
+				target_country = c:LUX
+				primary_demand = yes
 			}
 		}
 	}
