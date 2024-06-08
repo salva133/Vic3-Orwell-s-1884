@@ -36,3 +36,5 @@ Everything that is set at the start of the game.
 
 ### Definition
 You start as a country and get an inital event that describes the state of the selected nation.
+## Initial Truces
+All three super powers should have an intial truce for 10 years
