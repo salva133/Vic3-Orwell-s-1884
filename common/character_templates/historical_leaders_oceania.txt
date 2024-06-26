@@ -35,7 +35,7 @@ eur_leader_template = {
     }
 }
 eas_leader_template = {
-    # first_name = "Eric
+    # first_name = Eric
     # last_name = Blair 
 	female = no
     historical = yes
