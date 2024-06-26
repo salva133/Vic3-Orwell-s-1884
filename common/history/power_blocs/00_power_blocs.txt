@@ -1,0 +1,20 @@
+POWER_BLOCS = {
+	c:FRA = {
+		create_power_bloc = {
+			name = LAST_HOPE_FOR_EUROPE
+
+			map_color = { 0 0 255 }
+
+			founding_date = 1880.1.1
+			identity = identity_military_treaty_organization
+			principle = principle_defensive_cooperation_1
+
+			member = c:SWI
+			member = c:POR
+			member = c:BEL
+			member = c:NET
+			member = c:SPA
+			member = c:LUX
+		}
+	}
+}
