@@ -423,12 +423,12 @@
 		}
 	}
 	s:STATE_ALASKA={
-		region_state:RUS={
+		region_state:EUR={
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:RUS"
+						country="c:EUR"
 						levels=1
 					}
 				}
