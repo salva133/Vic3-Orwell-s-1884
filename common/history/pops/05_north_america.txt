@@ -961,7 +961,7 @@
 		}
 	}
 	s:STATE_HAWAIIAN_ISLANDS = {
-		region_state:HAW = {
+		region_state:OCE = {
 			create_pop = {
 				pop_type = clergymen
 				culture = yankee
