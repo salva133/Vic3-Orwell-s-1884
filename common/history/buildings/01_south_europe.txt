@@ -363,13 +363,13 @@
 		}
 	}
 	s:STATE_MALTA={
-		region_state:GBR={
+		region_state:ASO={
 			create_building={
 				building="building_fishing_wharf"
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:GBR"
+						country="c:ASO"
 						levels=1
 						region="STATE_MALTA"
 					}
@@ -381,7 +381,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:ASO"
 						levels=1
 					}
 				}
@@ -2500,12 +2500,12 @@
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts"  }
 			}
 		}
-		region_state:GBR={
+		region_state:ASO={
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:ASO"
 						levels=1
 					}
 				}
