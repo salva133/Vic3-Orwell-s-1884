@@ -6,8 +6,6 @@ NGame = {
 	DEAD_OBJ_UNDESTROYED_DAYS = 22	# number of days "killed"/removed objects will persist in memory before ultimately destroyed as they are referenced by events etc. Needs to be bigger than MESSAGE_FEED_NUMBER_OF_DAYS_SHOWN in order to not risk notifications regarding dead people etc returning null_objs.
 	MAX_NUMBER_OF_AUTOSAVES = 5 	# The game will only keep the MAX_NUMBER_OF_AUTOSAVES latest autosaves.
 }
-
-NAI = {
 	DEFAULT_STRATEGY_STRING = "ai_strategy_default"
 
 	STRATEGY_RANDOM_FACTOR = 20.0 # The higher this is, the more random AI strategy selection will be
@@ -913,4 +911,3 @@ NAI = {
 	MILITARY_UNITS_MIN_FOR_GARRISON_FORMATION_IN_CAPITAL_HQ = 5 		# Overrides MILITARY_UNITS_MIN_FOR_GARRISON_FORMATION for the capital land HQ, since not leaving the capital undefended is extremely critical
 	MILITARY_UNITS_GARRISON_BATTALION_MULT = 0.33		# The garrison formation in each HQ should receive this portion of its total number of battalions
 	MILITARY_UNITS_MIN_DELTA_TO_TRANSFER_UNITS = 0.05   # There must be at least this delta between the fraction of a HQ's units that a formation wants and the fraction that it has to bother with transfering units to/from it
-}
