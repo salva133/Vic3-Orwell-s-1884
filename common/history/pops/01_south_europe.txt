@@ -318,7 +318,7 @@
 				size = 1218404
 			}
 		}
-		region_state:GBR = {
+		region_state:ASO = {
 			create_pop = {
 				culture = spanish
 				size = 49024
