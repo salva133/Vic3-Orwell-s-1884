@@ -488,585 +488,585 @@ DEFAULT = {
 }
 
 # Oceania
-OCE = {
-	############# Monarchy #############		
-	dynamic_country_name = {
-		name = dyn_c_oceania_absolutist_monarchy
-		adjective = OCE_ADJ
-		is_main_tag_only = yes
-		priority = 25
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				has_law = law_type:law_autocracy
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_oceania_technocratic_monarchy
-		adjective = OCE_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				has_law = law_type:law_technocracy
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_oceania_monarchy
-		adjective = OCE_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-			}
-		}
-	}
-	############# Democracy #############
-	dynamic_country_name = {
-		name = dyn_c_oceania_republic
-		adjective = OCE_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				OR = {
-					has_law = law_type:law_presidential_republic
-					has_law = law_type:law_parliamentary_republic
-				}
-				country_has_voting_franchise = yes
-			}
-		}
-	}
-	############# Dictatorcy #############
-	dynamic_country_name = {
-		name = dyn_c_oceania_dictatorship
-		adjective = OCE_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				OR = {
-					has_law = law_type:law_presidential_republic
-					has_law = law_type:law_parliamentary_republic
-				}
-				country_has_voting_franchise = no
-			}
-		}
-	}
-	############# Theocracy #############
-	dynamic_country_name = {
-		name = dyn_c_oceania_theocratic
-		adjective = OCE_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_theocracy
-				country_has_voting_franchise = no
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_oceania_theocraticvote
-		adjective = OCE_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_theocracy
-				country_has_voting_franchise = yes
-			}
-		}
-	}
-	######communist#####
-	dynamic_country_name = {
-		name = dyn_c_oceania_communist
-		adjective = OCE_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_council_republic
-				country_has_voting_franchise = no
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_oceania_communistvote
-		adjective = OCE_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_council_republic
-				country_has_voting_franchise = yes
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_oceania_anarchy
-		adjective = OCE_ADJ
-		is_main_tag_only = yes
-		priority = 25
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_anarchy
-			}
-		}
-	}
-}
+# OCE = {
+# 	############# Monarchy #############		
+# 	dynamic_country_name = {
+# 		name = dyn_c_oceania_absolutist_monarchy
+# 		adjective = OCE_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 25
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_monarchy
+# 				has_law = law_type:law_autocracy
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_oceania_technocratic_monarchy
+# 		adjective = OCE_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_monarchy
+# 				has_law = law_type:law_technocracy
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_oceania_monarchy
+# 		adjective = OCE_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_monarchy
+# 			}
+# 		}
+# 	}
+# 	############# Democracy #############
+# 	dynamic_country_name = {
+# 		name = dyn_c_oceania_republic
+# 		adjective = OCE_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				OR = {
+# 					has_law = law_type:law_presidential_republic
+# 					has_law = law_type:law_parliamentary_republic
+# 				}
+# 				country_has_voting_franchise = yes
+# 			}
+# 		}
+# 	}
+# 	############# Dictatorcy #############
+# 	dynamic_country_name = {
+# 		name = dyn_c_oceania_dictatorship
+# 		adjective = OCE_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				OR = {
+# 					has_law = law_type:law_presidential_republic
+# 					has_law = law_type:law_parliamentary_republic
+# 				}
+# 				country_has_voting_franchise = no
+# 			}
+# 		}
+# 	}
+# 	############# Theocracy #############
+# 	dynamic_country_name = {
+# 		name = dyn_c_oceania_theocratic
+# 		adjective = OCE_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_theocracy
+# 				country_has_voting_franchise = no
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_oceania_theocraticvote
+# 		adjective = OCE_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_theocracy
+# 				country_has_voting_franchise = yes
+# 			}
+# 		}
+# 	}
+# 	######communist#####
+# 	dynamic_country_name = {
+# 		name = dyn_c_oceania_communist
+# 		adjective = OCE_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_council_republic
+# 				country_has_voting_franchise = no
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_oceania_communistvote
+# 		adjective = OCE_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_council_republic
+# 				country_has_voting_franchise = yes
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_oceania_anarchy
+# 		adjective = OCE_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 25
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_anarchy
+# 			}
+# 		}
+# 	}
+# }
 
 # Eurasia
-EUR = {
-	############# Monarchy #############		
-	dynamic_country_name = {
-		name = dyn_c_eurasia_absolutist_monarchy
-		adjective = EUR_ADJ
-		is_main_tag_only = yes
-		priority = 25
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				has_law = law_type:law_autocracy
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_eurasia_technocratic_monarchy
-		adjective = EUR_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				has_law = law_type:law_technocracy
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_eurasia_monarchy
-		adjective = EUR_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-			}
-		}
-	}
-	############# Democracy #############
-	dynamic_country_name = {
-		name = dyn_c_eurasia_republic
-		adjective = EUR_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				OR = {
-					has_law = law_type:law_presidential_republic
-					has_law = law_type:law_parliamentary_republic
-				}
-				country_has_voting_franchise = yes
-			}
-		}
-	}
-	############# Dictatorcy #############
-	dynamic_country_name = {
-		name = dyn_c_eurasia_dictatorship
-		adjective = EUR_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				OR = {
-					has_law = law_type:law_presidential_republic
-					has_law = law_type:law_parliamentary_republic
-				}
-				country_has_voting_franchise = no
-			}
-		}
-	}
-	############# Theocracy #############
-	dynamic_country_name = {
-		name = dyn_c_eurasia_theocratic
-		adjective = EUR_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_theocracy
-				country_has_voting_franchise = no
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_eurasia_theocraticvote
-		adjective = EUR_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_theocracy
-				country_has_voting_franchise = yes
-			}
-		}
-	}
-	######communist#####
-	dynamic_country_name = {
-		name = dyn_c_eurasia_communist
-		adjective = EUR_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_council_republic
-				country_has_voting_franchise = no
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_eurasia_communistvote
-		adjective = EUR_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_council_republic
-				country_has_voting_franchise = yes
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_eurasia_anarchy
-		adjective = EUR_ADJ
-		is_main_tag_only = yes
-		priority = 25
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_anarchy
-			}
-		}
-	}
-}
+# EUR = {
+# 	############# Monarchy #############		
+# 	dynamic_country_name = {
+# 		name = dyn_c_eurasia_absolutist_monarchy
+# 		adjective = EUR_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 25
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_monarchy
+# 				has_law = law_type:law_autocracy
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_eurasia_technocratic_monarchy
+# 		adjective = EUR_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_monarchy
+# 				has_law = law_type:law_technocracy
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_eurasia_monarchy
+# 		adjective = EUR_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_monarchy
+# 			}
+# 		}
+# 	}
+# 	############# Democracy #############
+# 	dynamic_country_name = {
+# 		name = dyn_c_eurasia_republic
+# 		adjective = EUR_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				OR = {
+# 					has_law = law_type:law_presidential_republic
+# 					has_law = law_type:law_parliamentary_republic
+# 				}
+# 				country_has_voting_franchise = yes
+# 			}
+# 		}
+# 	}
+# 	############# Dictatorcy #############
+# 	dynamic_country_name = {
+# 		name = dyn_c_eurasia_dictatorship
+# 		adjective = EUR_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				OR = {
+# 					has_law = law_type:law_presidential_republic
+# 					has_law = law_type:law_parliamentary_republic
+# 				}
+# 				country_has_voting_franchise = no
+# 			}
+# 		}
+# 	}
+# 	############# Theocracy #############
+# 	dynamic_country_name = {
+# 		name = dyn_c_eurasia_theocratic
+# 		adjective = EUR_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_theocracy
+# 				country_has_voting_franchise = no
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_eurasia_theocraticvote
+# 		adjective = EUR_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_theocracy
+# 				country_has_voting_franchise = yes
+# 			}
+# 		}
+# 	}
+# 	######communist#####
+# 	dynamic_country_name = {
+# 		name = dyn_c_eurasia_communist
+# 		adjective = EUR_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_council_republic
+# 				country_has_voting_franchise = no
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_eurasia_communistvote
+# 		adjective = EUR_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_council_republic
+# 				country_has_voting_franchise = yes
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_eurasia_anarchy
+# 		adjective = EUR_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 25
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_anarchy
+# 			}
+# 		}
+# 	}
+# }
 
 # East Asia
-EAS = {
-	############# Monarchy #############		
-	dynamic_country_name = {
-		name = dyn_c_eastasia_absolutist_monarchy
-		adjective = EAS_ADJ
-		is_main_tag_only = yes
-		priority = 25
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				has_law = law_type:law_autocracy
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_eastasia_technocratic_monarchy
-		adjective = EAS_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				has_law = law_type:law_technocracy
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_eastasia_monarchy
-		adjective = EAS_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-			}
-		}
-	}
-	############# Democracy #############
-	dynamic_country_name = {
-		name = dyn_c_eastasia_republic
-		adjective = EAS_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				OR = {
-					has_law = law_type:law_presidential_republic
-					has_law = law_type:law_parliamentary_republic
-				}
-				country_has_voting_franchise = yes
-			}
-		}
-	}
-	############# Dictatorcy #############
-	dynamic_country_name = {
-		name = dyn_c_eastasia_dictatorship
-		adjective = EAS_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				OR = {
-					has_law = law_type:law_presidential_republic
-					has_law = law_type:law_parliamentary_republic
-				}
-				country_has_voting_franchise = no
-			}
-		}
-	}
-	############# Theocracy #############
-	dynamic_country_name = {
-		name = dyn_c_eastasia_theocratic
-		adjective = EAS_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_theocracy
-				country_has_voting_franchise = no
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_eastasia_theocraticvote
-		adjective = EAS_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_theocracy
-				country_has_voting_franchise = yes
-			}
-		}
-	}
-	######communist#####
-	dynamic_country_name = {
-		name = dyn_c_eastasia_communist
-		adjective = EAS_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_council_republic
-				country_has_voting_franchise = no
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_eastasia_communistvote
-		adjective = EAS_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_council_republic
-				country_has_voting_franchise = yes
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_eastasia_anarchy
-		adjective = EAS_ADJ
-		is_main_tag_only = yes
-		priority = 25
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_anarchy
-			}
-		}
-	}
-}
+# EAS = {
+# 	############# Monarchy #############		
+# 	dynamic_country_name = {
+# 		name = dyn_c_eastasia_absolutist_monarchy
+# 		adjective = EAS_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 25
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_monarchy
+# 				has_law = law_type:law_autocracy
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_eastasia_technocratic_monarchy
+# 		adjective = EAS_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_monarchy
+# 				has_law = law_type:law_technocracy
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_eastasia_monarchy
+# 		adjective = EAS_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_monarchy
+# 			}
+# 		}
+# 	}
+# 	############# Democracy #############
+# 	dynamic_country_name = {
+# 		name = dyn_c_eastasia_republic
+# 		adjective = EAS_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				OR = {
+# 					has_law = law_type:law_presidential_republic
+# 					has_law = law_type:law_parliamentary_republic
+# 				}
+# 				country_has_voting_franchise = yes
+# 			}
+# 		}
+# 	}
+# 	############# Dictatorcy #############
+# 	dynamic_country_name = {
+# 		name = dyn_c_eastasia_dictatorship
+# 		adjective = EAS_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				OR = {
+# 					has_law = law_type:law_presidential_republic
+# 					has_law = law_type:law_parliamentary_republic
+# 				}
+# 				country_has_voting_franchise = no
+# 			}
+# 		}
+# 	}
+# 	############# Theocracy #############
+# 	dynamic_country_name = {
+# 		name = dyn_c_eastasia_theocratic
+# 		adjective = EAS_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_theocracy
+# 				country_has_voting_franchise = no
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_eastasia_theocraticvote
+# 		adjective = EAS_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_theocracy
+# 				country_has_voting_franchise = yes
+# 			}
+# 		}
+# 	}
+# 	######communist#####
+# 	dynamic_country_name = {
+# 		name = dyn_c_eastasia_communist
+# 		adjective = EAS_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_council_republic
+# 				country_has_voting_franchise = no
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_eastasia_communistvote
+# 		adjective = EAS_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_council_republic
+# 				country_has_voting_franchise = yes
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_eastasia_anarchy
+# 		adjective = EAS_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 25
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_anarchy
+# 			}
+# 		}
+# 	}
+# }
 
 # AirstripOne / The Isles
-ASO = {
-	############# Monarchy #############		
-	dynamic_country_name = {
-		name = dyn_c_airstripone_absolutist_monarchy
-		adjective = ASO_ADJ
-		is_main_tag_only = yes
-		priority = 25
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				has_law = law_type:law_autocracy
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_airstripone_technocratic_monarchy
-		adjective = ASO_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				has_law = law_type:law_technocracy
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_airstripone_monarchy
-		adjective = ASO_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_monarchy
-			}
-		}
-	}
-	############# Democracy #############
-	dynamic_country_name = {
-		name = dyn_c_airstripone_republic
-		adjective = ASO_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				OR = {
-					has_law = law_type:law_presidential_republic
-					has_law = law_type:law_parliamentary_republic
-				}
-				country_has_voting_franchise = yes
-			}
-		}
-	}
-	############# Dictatorcy #############
-	dynamic_country_name = {
-		name = dyn_c_airstripone_dictatorship
-		adjective = ASO_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				OR = {
-					has_law = law_type:law_presidential_republic
-					has_law = law_type:law_parliamentary_republic
-				}
-				country_has_voting_franchise = no
-			}
-		}
-	}
-	############# Theocracy #############
-	dynamic_country_name = {
-		name = dyn_c_airstripone_theocratic
-		adjective = ASO_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_theocracy
-				country_has_voting_franchise = no
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_airstripone_theocraticvote
-		adjective = ASO_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_theocracy
-				country_has_voting_franchise = yes
-			}
-		}
-	}
-	######communist#####
-	dynamic_country_name = {
-		name = dyn_c_airstripone_communist
-		adjective = ASO_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_council_republic
-				country_has_voting_franchise = no
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_airstripone_communistvote
-		adjective = ASO_ADJ
-		is_main_tag_only = yes
-		priority = 20
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_council_republic
-				country_has_voting_franchise = yes
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_airstripone_anarchy
-		adjective = ASO_ADJ
-		is_main_tag_only = yes
-		priority = 25
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				has_law = law_type:law_anarchy
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_airstripone_puppet_OCE
-		adjective = ASO_ADJ
-		is_main_tag_only = yes
-		priority = 50
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				is_subject_of = c:OCE
-			}
-		}
-	}
-}
+# ASO = {
+# 	############# Monarchy #############		
+# 	dynamic_country_name = {
+# 		name = dyn_c_airstripone_absolutist_monarchy
+# 		adjective = ASO_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 25
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_monarchy
+# 				has_law = law_type:law_autocracy
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_airstripone_technocratic_monarchy
+# 		adjective = ASO_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_monarchy
+# 				has_law = law_type:law_technocracy
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_airstripone_monarchy
+# 		adjective = ASO_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_monarchy
+# 			}
+# 		}
+# 	}
+# 	############# Democracy #############
+# 	dynamic_country_name = {
+# 		name = dyn_c_airstripone_republic
+# 		adjective = ASO_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				OR = {
+# 					has_law = law_type:law_presidential_republic
+# 					has_law = law_type:law_parliamentary_republic
+# 				}
+# 				country_has_voting_franchise = yes
+# 			}
+# 		}
+# 	}
+# 	############# Dictatorcy #############
+# 	dynamic_country_name = {
+# 		name = dyn_c_airstripone_dictatorship
+# 		adjective = ASO_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				OR = {
+# 					has_law = law_type:law_presidential_republic
+# 					has_law = law_type:law_parliamentary_republic
+# 				}
+# 				country_has_voting_franchise = no
+# 			}
+# 		}
+# 	}
+# 	############# Theocracy #############
+# 	dynamic_country_name = {
+# 		name = dyn_c_airstripone_theocratic
+# 		adjective = ASO_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_theocracy
+# 				country_has_voting_franchise = no
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_airstripone_theocraticvote
+# 		adjective = ASO_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_theocracy
+# 				country_has_voting_franchise = yes
+# 			}
+# 		}
+# 	}
+# 	######communist#####
+# 	dynamic_country_name = {
+# 		name = dyn_c_airstripone_communist
+# 		adjective = ASO_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_council_republic
+# 				country_has_voting_franchise = no
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_airstripone_communistvote
+# 		adjective = ASO_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 20
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_council_republic
+# 				country_has_voting_franchise = yes
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_airstripone_anarchy
+# 		adjective = ASO_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 25
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				has_law = law_type:law_anarchy
+# 			}
+# 		}
+# 	}
+# 	dynamic_country_name = {
+# 		name = dyn_c_airstripone_puppet_OCE
+# 		adjective = ASO_ADJ
+# 		is_main_tag_only = yes
+# 		priority = 50
+# 		trigger = {
+# 			exists = scope:actor
+# 			scope:actor = {
+# 				is_subject_of = c:OCE
+# 			}
+# 		}
+# 	}
+# }
