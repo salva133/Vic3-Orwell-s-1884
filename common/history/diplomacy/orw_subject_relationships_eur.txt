@@ -64,6 +64,33 @@
 			country = c:SAR
 			type = unified_leadership
 		}
-		
+		create_diplomatic_pact = {
+			country = c:CHC
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:CIR
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:MOL
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:UBD
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:FIN
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:KZH
+			type = unified_leadership
+		}
+		create_diplomatic_pact = {
+			country = c:OZH
+			type = unified_leadership
+		}
 	}
 }
