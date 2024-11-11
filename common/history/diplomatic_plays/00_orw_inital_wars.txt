@@ -1,7 +1,7 @@
 ﻿# The inital war state of war
 DIPLOMATIC_PLAYS = {
 	c:EUR = {
-		# War of Europe
+		# War for Europe
 		create_diplomatic_play = {
 
 			name = eurasian_unification
