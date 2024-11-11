@@ -1,4 +1,5 @@
 ﻿POWER_BLOCS = {
+	
 	c:FRA = {
 		create_power_bloc = {
 			name = LAST_HOPE_FOR_EUROPE
@@ -8,6 +9,8 @@
 			founding_date = 1880.1.1
 			identity = identity_military_treaty_organization
 			principle = principle_defensive_cooperation_1
+			principle = principle_defensive_cooperation_2
+			principle = principle_defensive_cooperation_3
 
 			member = c:SWI
 			member = c:POR
@@ -15,6 +18,54 @@
 			member = c:NET
 			member = c:SPA
 			member = c:LUX
+		}
+	}
+
+	c:EUR = {
+		create_power_bloc = {
+			name = EURASIAN_FEDERATION
+
+			map_color = { 90 0 0 }
+
+			# founding_date = 1880.1.1
+			identity = identity_ideological_union
+			principle = principle_ideological_truth_3
+			principle = principle_vassalization_3
+			principle = principle_police_coordination_3
+			principle = principle_militarized_industry_3
+
+		}
+	}
+
+	c:OCE = {
+		create_power_bloc = {
+			name = UNITED_STATES_OF_OCEANIA
+
+			map_color = { 25 25 25 }
+
+			# founding_date = 1880.1.1
+			identity = identity_ideological_union
+			principle = principle_ideological_truth_3
+			principle = principle_vassalization_3
+			principle = principle_police_coordination_3
+			principle = principle_militarized_industry_3
+
+		}
+	}
+
+	c:EAS = {
+		create_power_bloc = {
+			name = EAST_ASIA_COOPERATIVE
+
+			map_color = { 51 0 51 }
+
+			# founding_date = 1880.1.1
+			identity = identity_ideological_union
+			principle = principle_ideological_truth_3
+			principle = principle_vassalization_3
+			principle = principle_police_coordination_3
+			principle = principle_militarized_industry_3
+
 		}
 	}
 }
