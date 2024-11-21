@@ -2,7 +2,7 @@
   "name" : "Orwell's 1884",
   "id" : "3341347918",
   "version" : "0.1.000",
-  "supported_game_version" : "1.7.7",
+  "supported_game_version" : "1.8.1",
   "short_description" : "Scenario Mod for conversing the world into something out of an orwellian novel.",
   "tags" : [],
   "relationships" : [3341349338],
