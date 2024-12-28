@@ -7,6 +7,9 @@
   "tags" : [],
   "relationships" : [3341349338],
   "game_custom_data" : {
-    "multiplayer_synchronized" : false
+    "multiplayer_synchronized" : false,
+    "replace_paths" : [
+      "gfx/loadingscreens"
+    ]
   }
 }
