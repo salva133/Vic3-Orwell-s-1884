@@ -297,91 +297,6 @@
 			}
 		}
 	}
-	s:STATE_UUSIMAA = { #DONE
-		region_state:FIN = {
-			create_pop = {
-				culture = swedish
-				size = 101334
-			}
-			create_pop = {
-				culture = finnish
-				size = 436941
-			}
-		}
-	}
-	s:STATE_WEST_KARELIA = { #DONE
-		region_state:FIN = {
-			create_pop = {
-				culture = finnish
-				size = 221799
-			}
-			create_pop = {
-				culture = finnish
-				religion = orthodox
-				size = 15000
-			}
-			create_pop = {
-				culture = swedish
-				size = 8715
-			}
-			create_pop = {
-				culture = russian
-				size = 3486
-			}
-		}
-	}
-	s:STATE_ALAND = { #DONE
-		region_state:FIN = {
-			create_pop = {
-				culture = swedish
-				size = 25800
-			}
-			create_pop = {
-				culture = finnish
-				size = 1200
-			}
-		}
-	}
-	s:STATE_OSTROBOTHNIA = { #DONE
-		region_state:FIN = {
-			create_pop = {
-				culture = finnish
-				size = 135542
-			}
-			create_pop = {
-				culture = swedish
-				size = 66458
-			}
-		}
-	}
-	s:STATE_OULU = { #DONE
-		region_state:FIN = {
-			create_pop = {
-				culture = finnish
-				size = 116250
-			}
-			create_pop = {
-				culture = swedish
-				size = 1250
-			}
-			create_pop = {
-				culture = sami
-				size = 7500
-			}
-		}
-	}
-	s:STATE_KUOPIO = { #DONE
-		region_state:FIN = {
-			create_pop = {
-				culture = finnish
-				size = 301794
-			}
-			create_pop = {
-				culture = swedish
-				size = 1145
-			}
-		}
-	}
 	s:STATE_KOLA = { #DONE
 		region_state:EUR = {
 			create_pop = {
@@ -813,26 +728,6 @@
 			create_pop = {
 				culture = south_german
 				size = 2513
-			}
-		}
-		region_state:CHC = {
-			create_pop = {
-				culture = chechen
-				size = 85000
-			}
-			create_pop = {
-				culture = north_caucasian
-				size = 21000
-			}
-		}
-		region_state:CIR = {
-			create_pop = {
-				culture = circassian
-				size = 57809
-			}
-			create_pop = {
-				culture = north_caucasian
-				size = 13000
 			}
 		}
 	}

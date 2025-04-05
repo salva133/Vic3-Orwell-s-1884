@@ -510,7 +510,7 @@
 			create_building={
 				building="building_artillery_foundries"
 				add_ownership={
-					country{
+					country={
 						country="c:EUR"
 						levels=1
 					}
@@ -1568,8 +1568,6 @@
 	}
 	s:STATE_URALSK={
 		region_state:EUR={
-		}
-		region_state:KZH={
 			create_building={
 				building="building_barracks"
 				add_ownership={
@@ -1581,8 +1579,6 @@
 				reserves=1
 				activate_production_methods={ "pm_no_organization" }
 			}
-		}
-		region_state:KHI={
 		}
 	}
 	s:STATE_KHIVA={
@@ -1676,8 +1672,6 @@
 		}
 	}
 	s:STATE_FERGANA={
-		region_state:BUK={
-		}
 		region_state:KOK={
 		}
 	}
@@ -1691,8 +1685,6 @@
 		region_state:OZH={
 		}
 		region_state:KZH={
-		}
-		region_state:BUK={
 		}
 		region_state:UZH={
 		}
