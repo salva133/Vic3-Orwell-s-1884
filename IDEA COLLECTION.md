@@ -21,7 +21,7 @@ Everything that is set at the start of the game.
 ## Handling the Contested Zone
 - Alliance of all the states? (Orwell's 1884\common\history\diplomacy -> create_diplomatic_pact)
 - Unification into one Nation? (Could be too OP and tbh I have no intention to define the whole bumfuckin history files... again)
-### Hanndling Annex DP
+### Handling Annex DP
 #### Ideas
 - Disable it
 - Make it more difficult to declare
