@@ -1,4 +1,7 @@
 unified_leadership = {
+	groups = {
+		general
+	}
 	can_select = no
 
 	potential = { # Only created through diplomatic plays
@@ -20,10 +23,7 @@ unified_leadership = {
 		}
 
 		target_can_break = { # Has to use diplomatic play to break
-			error_check = {
-				severity = invalid
-				always = no
-			}
+			always = no
 		}
 		
 		break_effect = {
